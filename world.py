@@ -197,6 +197,7 @@ class World:
                 move_pos = random_move(self.chess_board,cur_player)
 
             # Execute move
+            #input()
             execute_move(self.chess_board,move_pos, cur_player)
             logger.info(
                 f"Player {self.player_names[self.turn]} places at {move_pos}. Time taken this turn (in seconds): {time_taken}"

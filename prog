@@ -1,0 +1,9 @@
+ python simulator.py --player_1 tdw --player_2  board_score --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  c2a --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  c3a --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  c4a --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  c5a --autoplay --autoplay_runs 14
+
+
+
+

@@ -1,0 +1,628 @@
+My AI's turn took  0.0003719329833984375 seconds.
+My AI's turn took  0.00040984153747558594 seconds.
+My AI's turn took  0.00047326087951660156 seconds.
+My AI's turn took  0.0002551078796386719 seconds.
+My AI's turn took  0.00031185150146484375 seconds.
+My AI's turn took  0.00023603439331054688 seconds.
+My AI's turn took  0.0001049041748046875 seconds.
+My AI's turn took  0.00010013580322265625 seconds.
+My AI's turn took  0.00023794174194335938 seconds.
+My AI's turn took  0.00021195411682128906 seconds.
+My AI's turn took  0.00017786026000976562 seconds.
+My AI's turn took  0.00013303756713867188 seconds.
+My AI's turn took  0.00012993812561035156 seconds.
+My AI's turn took  4.935264587402344e-05 seconds.
+My AI's turn took  3.409385681152344e-05 seconds.
+tdw won on boardsize 6.00 with a score of 33.00 to 2.00
+My AI's turn took  0.00028705596923828125 seconds.
+My AI's turn took  0.00021409988403320312 seconds.
+My AI's turn took  0.00033020973205566406 seconds.
+My AI's turn took  0.00031113624572753906 seconds.
+My AI's turn took  0.000396728515625 seconds.
+My AI's turn took  0.0002758502960205078 seconds.
+My AI's turn took  0.0003561973571777344 seconds.
+My AI's turn took  0.000286102294921875 seconds.
+My AI's turn took  8.296966552734375e-05 seconds.
+My AI's turn took  0.00019598007202148438 seconds.
+My AI's turn took  0.00017213821411132812 seconds.
+My AI's turn took  9.274482727050781e-05 seconds.
+My AI's turn took  4.9114227294921875e-05 seconds.
+My AI's turn took  4.506111145019531e-05 seconds.
+tdw won on boardsize 6.00 with a score of 35.00 to 1.00
+My AI's turn took  0.00048089027404785156 seconds.
+My AI's turn took  0.0005769729614257812 seconds.
+My AI's turn took  0.0006530284881591797 seconds.
+My AI's turn took  0.0006389617919921875 seconds.
+My AI's turn took  0.0005872249603271484 seconds.
+My AI's turn took  0.00034308433532714844 seconds.
+My AI's turn took  0.00047779083251953125 seconds.
+My AI's turn took  0.00032782554626464844 seconds.
+My AI's turn took  0.00021576881408691406 seconds.
+My AI's turn took  0.00020003318786621094 seconds.
+My AI's turn took  0.00019884109497070312 seconds.
+My AI's turn took  0.000125885009765625 seconds.
+My AI's turn took  0.00012493133544921875 seconds.
+My AI's turn took  0.00010991096496582031 seconds.
+My AI's turn took  0.00010013580322265625 seconds.
+My AI's turn took  9.274482727050781e-05 seconds.
+My AI's turn took  0.00017786026000976562 seconds.
+My AI's turn took  0.00012183189392089844 seconds.
+My AI's turn took  9.703636169433594e-05 seconds.
+My AI's turn took  5.412101745605469e-05 seconds.
+My AI's turn took  4.506111145019531e-05 seconds.
+My AI's turn took  2.288818359375e-05 seconds.
+tdw won on boardsize 7.00 with a score of 42.00 to 7.00
+My AI's turn took  0.00039124488830566406 seconds.
+My AI's turn took  0.00029087066650390625 seconds.
+My AI's turn took  0.0007359981536865234 seconds.
+My AI's turn took  0.0007150173187255859 seconds.
+My AI's turn took  0.0005800724029541016 seconds.
+My AI's turn took  0.0007009506225585938 seconds.
+My AI's turn took  0.0006320476531982422 seconds.
+My AI's turn took  0.0005371570587158203 seconds.
+My AI's turn took  0.0005292892456054688 seconds.
+My AI's turn took  0.0005078315734863281 seconds.
+My AI's turn took  0.000492095947265625 seconds.
+My AI's turn took  0.0003991127014160156 seconds.
+My AI's turn took  0.0003490447998046875 seconds.
+My AI's turn took  0.00032019615173339844 seconds.
+My AI's turn took  0.00024175643920898438 seconds.
+My AI's turn took  8.511543273925781e-05 seconds.
+My AI's turn took  7.510185241699219e-05 seconds.
+My AI's turn took  0.00015997886657714844 seconds.
+My AI's turn took  7.915496826171875e-05 seconds.
+My AI's turn took  6.890296936035156e-05 seconds.
+My AI's turn took  3.814697265625e-05 seconds.
+tdw won on boardsize 7.00 with a score of 43.00 to 6.00
+My AI's turn took  0.0006482601165771484 seconds.
+My AI's turn took  0.0006420612335205078 seconds.
+My AI's turn took  0.0005109310150146484 seconds.
+My AI's turn took  0.0008759498596191406 seconds.
+My AI's turn took  0.000993967056274414 seconds.
+My AI's turn took  0.0008270740509033203 seconds.
+My AI's turn took  0.0008127689361572266 seconds.
+My AI's turn took  0.0009527206420898438 seconds.
+My AI's turn took  0.0007760524749755859 seconds.
+My AI's turn took  0.0007669925689697266 seconds.
+My AI's turn took  0.00102996826171875 seconds.
+My AI's turn took  0.0009298324584960938 seconds.
+My AI's turn took  0.0007202625274658203 seconds.
+My AI's turn took  0.0006470680236816406 seconds.
+My AI's turn took  0.0007140636444091797 seconds.
+My AI's turn took  0.0005090236663818359 seconds.
+My AI's turn took  0.000553131103515625 seconds.
+My AI's turn took  0.0004730224609375 seconds.
+My AI's turn took  0.00013327598571777344 seconds.
+My AI's turn took  0.000125885009765625 seconds.
+My AI's turn took  0.00018215179443359375 seconds.
+My AI's turn took  0.00010514259338378906 seconds.
+My AI's turn took  0.00018286705017089844 seconds.
+My AI's turn took  8.678436279296875e-05 seconds.
+My AI's turn took  0.00011396408081054688 seconds.
+My AI's turn took  6.4849853515625e-05 seconds.
+My AI's turn took  6.699562072753906e-05 seconds.
+My AI's turn took  6.389617919921875e-05 seconds.
+tdw won on boardsize 8.00 with a score of 60.00 to 3.00
+My AI's turn took  0.0005121231079101562 seconds.
+My AI's turn took  0.000881195068359375 seconds.
+My AI's turn took  0.0006201267242431641 seconds.
+My AI's turn took  0.000621795654296875 seconds.
+My AI's turn took  0.0009667873382568359 seconds.
+My AI's turn took  0.0011949539184570312 seconds.
+My AI's turn took  0.0012447834014892578 seconds.
+My AI's turn took  0.0010161399841308594 seconds.
+My AI's turn took  0.0009598731994628906 seconds.
+My AI's turn took  0.0008718967437744141 seconds.
+My AI's turn took  0.0009112358093261719 seconds.
+My AI's turn took  0.0010581016540527344 seconds.
+My AI's turn took  0.0009260177612304688 seconds.
+My AI's turn took  0.0008139610290527344 seconds.
+My AI's turn took  0.000701904296875 seconds.
+My AI's turn took  0.0006709098815917969 seconds.
+My AI's turn took  0.000392913818359375 seconds.
+My AI's turn took  0.0002689361572265625 seconds.
+My AI's turn took  0.000408172607421875 seconds.
+My AI's turn took  0.0004050731658935547 seconds.
+My AI's turn took  0.00046896934509277344 seconds.
+My AI's turn took  0.0005068778991699219 seconds.
+My AI's turn took  0.0003788471221923828 seconds.
+My AI's turn took  0.0002751350402832031 seconds.
+My AI's turn took  0.000164031982421875 seconds.
+My AI's turn took  0.00013899803161621094 seconds.
+My AI's turn took  5.1975250244140625e-05 seconds.
+My AI's turn took  5.4836273193359375e-05 seconds.
+tdw won on boardsize 8.00 with a score of 55.00 to 9.00
+My AI's turn took  0.0008177757263183594 seconds.
+My AI's turn took  0.0009679794311523438 seconds.
+My AI's turn took  0.001344919204711914 seconds.
+My AI's turn took  0.0009288787841796875 seconds.
+My AI's turn took  0.0012629032135009766 seconds.
+My AI's turn took  0.0005891323089599609 seconds.
+My AI's turn took  0.0006031990051269531 seconds.
+My AI's turn took  0.0007379055023193359 seconds.
+My AI's turn took  0.0005850791931152344 seconds.
+My AI's turn took  0.0005567073822021484 seconds.
+My AI's turn took  0.0006780624389648438 seconds.
+My AI's turn took  0.0009388923645019531 seconds.
+My AI's turn took  0.0009241104125976562 seconds.
+My AI's turn took  0.0009179115295410156 seconds.
+My AI's turn took  0.0008859634399414062 seconds.
+My AI's turn took  0.0009548664093017578 seconds.
+My AI's turn took  0.0008218288421630859 seconds.
+My AI's turn took  0.0010759830474853516 seconds.
+My AI's turn took  0.0007977485656738281 seconds.
+My AI's turn took  0.0007688999176025391 seconds.
+My AI's turn took  0.0009338855743408203 seconds.
+My AI's turn took  0.0009088516235351562 seconds.
+My AI's turn took  0.0009481906890869141 seconds.
+My AI's turn took  0.0009372234344482422 seconds.
+My AI's turn took  0.0009400844573974609 seconds.
+My AI's turn took  0.0008351802825927734 seconds.
+My AI's turn took  0.0006542205810546875 seconds.
+My AI's turn took  0.0008199214935302734 seconds.
+My AI's turn took  0.0008032321929931641 seconds.
+My AI's turn took  0.0007197856903076172 seconds.
+My AI's turn took  0.0005998611450195312 seconds.
+My AI's turn took  0.0004811286926269531 seconds.
+My AI's turn took  0.00039505958557128906 seconds.
+My AI's turn took  0.0003001689910888672 seconds.
+My AI's turn took  0.00016570091247558594 seconds.
+My AI's turn took  8.988380432128906e-05 seconds.
+My AI's turn took  7.510185241699219e-05 seconds.
+My AI's turn took  5.6743621826171875e-05 seconds.
+tdw won on boardsize 9.00 with a score of 66.00 to 15.00
+My AI's turn took  0.0006501674652099609 seconds.
+My AI's turn took  0.0011408329010009766 seconds.
+My AI's turn took  0.0015208721160888672 seconds.
+My AI's turn took  0.00047206878662109375 seconds.
+My AI's turn took  0.0010941028594970703 seconds.
+My AI's turn took  0.0009200572967529297 seconds.
+My AI's turn took  0.0011639595031738281 seconds.
+My AI's turn took  0.0011529922485351562 seconds.
+My AI's turn took  0.001116037368774414 seconds.
+My AI's turn took  0.0008289813995361328 seconds.
+My AI's turn took  0.0009801387786865234 seconds.
+My AI's turn took  0.001316070556640625 seconds.
+My AI's turn took  0.0014870166778564453 seconds.
+My AI's turn took  0.0009391307830810547 seconds.
+My AI's turn took  0.00090789794921875 seconds.
+My AI's turn took  0.0007500648498535156 seconds.
+My AI's turn took  0.0006089210510253906 seconds.
+My AI's turn took  0.0006909370422363281 seconds.
+My AI's turn took  0.0003199577331542969 seconds.
+My AI's turn took  0.0002009868621826172 seconds.
+My AI's turn took  0.00019311904907226562 seconds.
+My AI's turn took  0.0002868175506591797 seconds.
+My AI's turn took  0.0002689361572265625 seconds.
+My AI's turn took  0.0002601146697998047 seconds.
+My AI's turn took  0.0002460479736328125 seconds.
+My AI's turn took  0.00022983551025390625 seconds.
+My AI's turn took  0.0002751350402832031 seconds.
+My AI's turn took  0.0001819133758544922 seconds.
+My AI's turn took  0.00011682510375976562 seconds.
+My AI's turn took  0.00010800361633300781 seconds.
+My AI's turn took  9.822845458984375e-05 seconds.
+My AI's turn took  9.703636169433594e-05 seconds.
+My AI's turn took  0.00020194053649902344 seconds.
+My AI's turn took  7.605552673339844e-05 seconds.
+My AI's turn took  7.700920104980469e-05 seconds.
+tdw won on boardsize 9.00 with a score of 78.00 to 1.00
+My AI's turn took  0.0010089874267578125 seconds.
+My AI's turn took  0.001209259033203125 seconds.
+My AI's turn took  0.0013821125030517578 seconds.
+My AI's turn took  0.0013439655303955078 seconds.
+My AI's turn took  0.001155853271484375 seconds.
+My AI's turn took  0.0011548995971679688 seconds.
+My AI's turn took  0.0007600784301757812 seconds.
+My AI's turn took  0.0012717247009277344 seconds.
+My AI's turn took  0.0009381771087646484 seconds.
+My AI's turn took  0.0008692741394042969 seconds.
+My AI's turn took  0.0015900135040283203 seconds.
+My AI's turn took  0.0014061927795410156 seconds.
+My AI's turn took  0.0013279914855957031 seconds.
+My AI's turn took  0.0008292198181152344 seconds.
+My AI's turn took  0.00115203857421875 seconds.
+My AI's turn took  0.0013051033020019531 seconds.
+My AI's turn took  0.0007841587066650391 seconds.
+My AI's turn took  0.0007910728454589844 seconds.
+My AI's turn took  0.0013670921325683594 seconds.
+My AI's turn took  0.0011856555938720703 seconds.
+My AI's turn took  0.0011730194091796875 seconds.
+My AI's turn took  0.0009829998016357422 seconds.
+My AI's turn took  0.0010418891906738281 seconds.
+My AI's turn took  0.0009558200836181641 seconds.
+My AI's turn took  0.0009741783142089844 seconds.
+My AI's turn took  0.0009441375732421875 seconds.
+My AI's turn took  0.0008127689361572266 seconds.
+My AI's turn took  0.0004432201385498047 seconds.
+My AI's turn took  0.0006279945373535156 seconds.
+My AI's turn took  0.0005280971527099609 seconds.
+My AI's turn took  0.00020885467529296875 seconds.
+My AI's turn took  0.0003859996795654297 seconds.
+My AI's turn took  0.0006418228149414062 seconds.
+My AI's turn took  0.00045418739318847656 seconds.
+My AI's turn took  0.0004200935363769531 seconds.
+My AI's turn took  0.0005419254302978516 seconds.
+My AI's turn took  0.0005140304565429688 seconds.
+My AI's turn took  0.0004410743713378906 seconds.
+My AI's turn took  0.0004210472106933594 seconds.
+My AI's turn took  0.0004169940948486328 seconds.
+My AI's turn took  0.00043487548828125 seconds.
+My AI's turn took  0.00043392181396484375 seconds.
+My AI's turn took  0.0003528594970703125 seconds.
+My AI's turn took  0.00023889541625976562 seconds.
+My AI's turn took  0.00014901161193847656 seconds.
+My AI's turn took  0.00010204315185546875 seconds.
+My AI's turn took  5.602836608886719e-05 seconds.
+tdw won on boardsize 10.00 with a score of 91.00 to 8.00
+My AI's turn took  0.0008039474487304688 seconds.
+My AI's turn took  0.0013988018035888672 seconds.
+My AI's turn took  0.0015549659729003906 seconds.
+My AI's turn took  0.0013740062713623047 seconds.
+My AI's turn took  0.0011720657348632812 seconds.
+My AI's turn took  0.0013508796691894531 seconds.
+My AI's turn took  0.0015149116516113281 seconds.
+My AI's turn took  0.001129150390625 seconds.
+My AI's turn took  0.001104116439819336 seconds.
+My AI's turn took  0.0010421276092529297 seconds.
+My AI's turn took  0.00125885009765625 seconds.
+My AI's turn took  0.0024688243865966797 seconds.
+My AI's turn took  0.0019588470458984375 seconds.
+My AI's turn took  0.0021779537200927734 seconds.
+My AI's turn took  0.0022919178009033203 seconds.
+My AI's turn took  0.0018908977508544922 seconds.
+My AI's turn took  0.0017211437225341797 seconds.
+My AI's turn took  0.002279996871948242 seconds.
+My AI's turn took  0.0022923946380615234 seconds.
+My AI's turn took  0.00232696533203125 seconds.
+My AI's turn took  0.002293109893798828 seconds.
+My AI's turn took  0.001692056655883789 seconds.
+My AI's turn took  0.001516103744506836 seconds.
+My AI's turn took  0.0015947818756103516 seconds.
+My AI's turn took  0.001567840576171875 seconds.
+My AI's turn took  0.0013799667358398438 seconds.
+My AI's turn took  0.0010340213775634766 seconds.
+My AI's turn took  0.0005538463592529297 seconds.
+My AI's turn took  0.0008559226989746094 seconds.
+My AI's turn took  0.0006337165832519531 seconds.
+My AI's turn took  0.000408172607421875 seconds.
+My AI's turn took  0.0004730224609375 seconds.
+My AI's turn took  0.0007297992706298828 seconds.
+My AI's turn took  0.0008859634399414062 seconds.
+My AI's turn took  0.0008478164672851562 seconds.
+My AI's turn took  0.000865936279296875 seconds.
+My AI's turn took  0.0009489059448242188 seconds.
+My AI's turn took  0.0008611679077148438 seconds.
+My AI's turn took  0.0007519721984863281 seconds.
+My AI's turn took  0.00067901611328125 seconds.
+My AI's turn took  0.0005030632019042969 seconds.
+My AI's turn took  0.0002770423889160156 seconds.
+My AI's turn took  0.00029587745666503906 seconds.
+My AI's turn took  0.00013518333435058594 seconds.
+My AI's turn took  7.700920104980469e-05 seconds.
+My AI's turn took  6.4849853515625e-05 seconds.
+My AI's turn took  5.1975250244140625e-05 seconds.
+tdw won on boardsize 10.00 with a score of 83.00 to 17.00
+My AI's turn took  0.0012209415435791016 seconds.
+My AI's turn took  0.0012171268463134766 seconds.
+My AI's turn took  0.001219034194946289 seconds.
+My AI's turn took  0.0013430118560791016 seconds.
+My AI's turn took  0.001680135726928711 seconds.
+My AI's turn took  0.001909017562866211 seconds.
+My AI's turn took  0.0014300346374511719 seconds.
+My AI's turn took  0.002263784408569336 seconds.
+My AI's turn took  0.0013620853424072266 seconds.
+My AI's turn took  0.0009407997131347656 seconds.
+My AI's turn took  0.001566171646118164 seconds.
+My AI's turn took  0.0015358924865722656 seconds.
+My AI's turn took  0.0017681121826171875 seconds.
+My AI's turn took  0.0019729137420654297 seconds.
+My AI's turn took  0.002332925796508789 seconds.
+My AI's turn took  0.0020580291748046875 seconds.
+My AI's turn took  0.0028107166290283203 seconds.
+My AI's turn took  0.002295970916748047 seconds.
+My AI's turn took  0.0020689964294433594 seconds.
+My AI's turn took  0.0017559528350830078 seconds.
+My AI's turn took  0.0017101764678955078 seconds.
+My AI's turn took  0.0018489360809326172 seconds.
+My AI's turn took  0.0017850399017333984 seconds.
+My AI's turn took  0.0014939308166503906 seconds.
+My AI's turn took  0.0013592243194580078 seconds.
+My AI's turn took  0.0013360977172851562 seconds.
+My AI's turn took  0.0011570453643798828 seconds.
+My AI's turn took  0.0009768009185791016 seconds.
+My AI's turn took  0.0007929801940917969 seconds.
+My AI's turn took  0.0007801055908203125 seconds.
+My AI's turn took  0.000286102294921875 seconds.
+My AI's turn took  0.0002818107604980469 seconds.
+My AI's turn took  0.0002760887145996094 seconds.
+My AI's turn took  0.0002701282501220703 seconds.
+My AI's turn took  0.000408172607421875 seconds.
+My AI's turn took  0.0004010200500488281 seconds.
+My AI's turn took  0.00024390220642089844 seconds.
+My AI's turn took  0.0003497600555419922 seconds.
+My AI's turn took  0.0002269744873046875 seconds.
+My AI's turn took  0.0004508495330810547 seconds.
+My AI's turn took  0.0004439353942871094 seconds.
+My AI's turn took  0.0005407333374023438 seconds.
+My AI's turn took  0.0001990795135498047 seconds.
+My AI's turn took  0.00018715858459472656 seconds.
+My AI's turn took  0.00018095970153808594 seconds.
+My AI's turn took  0.0001678466796875 seconds.
+My AI's turn took  0.0001621246337890625 seconds.
+My AI's turn took  0.00032210350036621094 seconds.
+My AI's turn took  0.00014901161193847656 seconds.
+My AI's turn took  0.0002658367156982422 seconds.
+My AI's turn took  0.0002999305725097656 seconds.
+My AI's turn took  0.0002288818359375 seconds.
+My AI's turn took  0.0002110004425048828 seconds.
+My AI's turn took  0.0002338886260986328 seconds.
+My AI's turn took  0.000225067138671875 seconds.
+My AI's turn took  0.00014519691467285156 seconds.
+My AI's turn took  8.797645568847656e-05 seconds.
+tdw won on boardsize 11.00 with a score of 110.00 to 11.00
+My AI's turn took  0.000946044921875 seconds.
+My AI's turn took  0.0017979145050048828 seconds.
+My AI's turn took  0.0019409656524658203 seconds.
+My AI's turn took  0.0016791820526123047 seconds.
+My AI's turn took  0.0014531612396240234 seconds.
+My AI's turn took  0.001653909683227539 seconds.
+My AI's turn took  0.0019321441650390625 seconds.
+My AI's turn took  0.0013730525970458984 seconds.
+My AI's turn took  0.001363992691040039 seconds.
+My AI's turn took  0.0010809898376464844 seconds.
+My AI's turn took  0.0013587474822998047 seconds.
+My AI's turn took  0.002939939498901367 seconds.
+My AI's turn took  0.002409219741821289 seconds.
+My AI's turn took  0.002699136734008789 seconds.
+My AI's turn took  0.0022280216217041016 seconds.
+My AI's turn took  0.002017974853515625 seconds.
+My AI's turn took  0.002189159393310547 seconds.
+My AI's turn took  0.0020761489868164062 seconds.
+My AI's turn took  0.002746105194091797 seconds.
+My AI's turn took  0.002875089645385742 seconds.
+My AI's turn took  0.002329111099243164 seconds.
+My AI's turn took  0.0028121471405029297 seconds.
+My AI's turn took  0.002371072769165039 seconds.
+My AI's turn took  0.002285003662109375 seconds.
+My AI's turn took  0.0017430782318115234 seconds.
+My AI's turn took  0.001786947250366211 seconds.
+My AI's turn took  0.0019271373748779297 seconds.
+My AI's turn took  0.0003039836883544922 seconds.
+My AI's turn took  0.0003058910369873047 seconds.
+My AI's turn took  0.0002951622009277344 seconds.
+My AI's turn took  0.00028705596923828125 seconds.
+My AI's turn took  0.00041484832763671875 seconds.
+My AI's turn took  0.00038909912109375 seconds.
+My AI's turn took  0.0002522468566894531 seconds.
+My AI's turn took  0.00024127960205078125 seconds.
+My AI's turn took  0.00023603439331054688 seconds.
+My AI's turn took  0.0002319812774658203 seconds.
+My AI's turn took  0.00022602081298828125 seconds.
+My AI's turn took  0.00034499168395996094 seconds.
+My AI's turn took  0.0003349781036376953 seconds.
+My AI's turn took  0.0004119873046875 seconds.
+My AI's turn took  0.0005681514739990234 seconds.
+My AI's turn took  0.00063323974609375 seconds.
+My AI's turn took  0.00061798095703125 seconds.
+My AI's turn took  0.0006580352783203125 seconds.
+My AI's turn took  0.0007297992706298828 seconds.
+My AI's turn took  0.0006742477416992188 seconds.
+My AI's turn took  0.0005218982696533203 seconds.
+My AI's turn took  0.0004649162292480469 seconds.
+My AI's turn took  0.0004930496215820312 seconds.
+My AI's turn took  0.0003829002380371094 seconds.
+My AI's turn took  0.00021576881408691406 seconds.
+My AI's turn took  0.00019288063049316406 seconds.
+My AI's turn took  8.821487426757812e-05 seconds.
+My AI's turn took  7.82012939453125e-05 seconds.
+My AI's turn took  6.389617919921875e-05 seconds.
+My AI's turn took  6.985664367675781e-05 seconds.
+tdw won on boardsize 11.00 with a score of 108.00 to 13.00
+My AI's turn took  0.0014603137969970703 seconds.
+My AI's turn took  0.0014510154724121094 seconds.
+My AI's turn took  0.0011601448059082031 seconds.
+My AI's turn took  0.0014383792877197266 seconds.
+My AI's turn took  0.002003192901611328 seconds.
+My AI's turn took  0.002100229263305664 seconds.
+My AI's turn took  0.001967191696166992 seconds.
+My AI's turn took  0.002215862274169922 seconds.
+My AI's turn took  0.0027899742126464844 seconds.
+My AI's turn took  0.002482175827026367 seconds.
+My AI's turn took  0.003242969512939453 seconds.
+My AI's turn took  0.002988100051879883 seconds.
+My AI's turn took  0.003571033477783203 seconds.
+My AI's turn took  0.0035851001739501953 seconds.
+My AI's turn took  0.003957033157348633 seconds.
+My AI's turn took  0.003667116165161133 seconds.
+My AI's turn took  0.004101753234863281 seconds.
+My AI's turn took  0.004065990447998047 seconds.
+My AI's turn took  0.004133701324462891 seconds.
+My AI's turn took  0.002840757369995117 seconds.
+My AI's turn took  0.0037088394165039062 seconds.
+My AI's turn took  0.0035178661346435547 seconds.
+My AI's turn took  0.003113985061645508 seconds.
+My AI's turn took  0.0032889842987060547 seconds.
+My AI's turn took  0.0030698776245117188 seconds.
+My AI's turn took  0.003123044967651367 seconds.
+My AI's turn took  0.0017099380493164062 seconds.
+My AI's turn took  0.0023272037506103516 seconds.
+My AI's turn took  0.001898050308227539 seconds.
+My AI's turn took  0.0020952224731445312 seconds.
+My AI's turn took  0.0022389888763427734 seconds.
+My AI's turn took  0.0020051002502441406 seconds.
+My AI's turn took  0.0027108192443847656 seconds.
+My AI's turn took  0.0024330615997314453 seconds.
+My AI's turn took  0.0026040077209472656 seconds.
+My AI's turn took  0.002621173858642578 seconds.
+My AI's turn took  0.0022721290588378906 seconds.
+My AI's turn took  0.001965761184692383 seconds.
+My AI's turn took  0.0014739036560058594 seconds.
+My AI's turn took  0.0014390945434570312 seconds.
+My AI's turn took  0.001260995864868164 seconds.
+My AI's turn took  0.0015158653259277344 seconds.
+My AI's turn took  0.001283884048461914 seconds.
+My AI's turn took  0.0012581348419189453 seconds.
+My AI's turn took  0.0005753040313720703 seconds.
+My AI's turn took  0.0006432533264160156 seconds.
+My AI's turn took  0.0006358623504638672 seconds.
+My AI's turn took  0.0005009174346923828 seconds.
+My AI's turn took  0.0005769729614257812 seconds.
+My AI's turn took  0.0009248256683349609 seconds.
+My AI's turn took  0.0012080669403076172 seconds.
+My AI's turn took  0.0012819766998291016 seconds.
+My AI's turn took  0.0012149810791015625 seconds.
+My AI's turn took  0.001277923583984375 seconds.
+My AI's turn took  0.0011248588562011719 seconds.
+My AI's turn took  0.0012328624725341797 seconds.
+My AI's turn took  0.0011126995086669922 seconds.
+My AI's turn took  0.0009391307830810547 seconds.
+My AI's turn took  0.0008580684661865234 seconds.
+My AI's turn took  0.0007882118225097656 seconds.
+My AI's turn took  0.0007801055908203125 seconds.
+My AI's turn took  0.0006678104400634766 seconds.
+My AI's turn took  0.0005407333374023438 seconds.
+My AI's turn took  0.00045108795166015625 seconds.
+My AI's turn took  0.0003399848937988281 seconds.
+My AI's turn took  0.0001480579376220703 seconds.
+My AI's turn took  8.797645568847656e-05 seconds.
+My AI's turn took  8.034706115722656e-05 seconds.
+My AI's turn took  7.915496826171875e-05 seconds.
+tdw won on boardsize 12.00 with a score of 111.00 to 33.00
+My AI's turn took  0.0011601448059082031 seconds.
+My AI's turn took  0.0017418861389160156 seconds.
+My AI's turn took  0.0011379718780517578 seconds.
+My AI's turn took  0.001413106918334961 seconds.
+My AI's turn took  0.001123189926147461 seconds.
+My AI's turn took  0.0011248588562011719 seconds.
+My AI's turn took  0.0013270378112792969 seconds.
+My AI's turn took  0.0010960102081298828 seconds.
+My AI's turn took  0.001361846923828125 seconds.
+My AI's turn took  0.0018901824951171875 seconds.
+My AI's turn took  0.00214385986328125 seconds.
+My AI's turn took  0.0016150474548339844 seconds.
+My AI's turn took  0.0005283355712890625 seconds.
+My AI's turn took  0.0015549659729003906 seconds.
+My AI's turn took  0.0015578269958496094 seconds.
+My AI's turn took  0.0025739669799804688 seconds.
+My AI's turn took  0.0025599002838134766 seconds.
+My AI's turn took  0.0025060176849365234 seconds.
+My AI's turn took  0.0035293102264404297 seconds.
+My AI's turn took  0.003325939178466797 seconds.
+My AI's turn took  0.003736734390258789 seconds.
+My AI's turn took  0.0032329559326171875 seconds.
+My AI's turn took  0.003117799758911133 seconds.
+My AI's turn took  0.0030591487884521484 seconds.
+My AI's turn took  0.0026128292083740234 seconds.
+My AI's turn took  0.002866983413696289 seconds.
+My AI's turn took  0.002511739730834961 seconds.
+My AI's turn took  0.0024929046630859375 seconds.
+My AI's turn took  0.0022881031036376953 seconds.
+My AI's turn took  0.002179861068725586 seconds.
+My AI's turn took  0.002357006072998047 seconds.
+My AI's turn took  0.0021750926971435547 seconds.
+My AI's turn took  0.002471923828125 seconds.
+My AI's turn took  0.002254009246826172 seconds.
+My AI's turn took  0.001277923583984375 seconds.
+My AI's turn took  0.0017769336700439453 seconds.
+My AI's turn took  0.0012149810791015625 seconds.
+My AI's turn took  0.00032591819763183594 seconds.
+My AI's turn took  0.0006520748138427734 seconds.
+My AI's turn took  0.0004730224609375 seconds.
+My AI's turn took  0.0002980232238769531 seconds.
+My AI's turn took  0.00029087066650390625 seconds.
+My AI's turn took  0.0002739429473876953 seconds.
+My AI's turn took  0.00026798248291015625 seconds.
+My AI's turn took  0.0002620220184326172 seconds.
+My AI's turn took  0.0002548694610595703 seconds.
+My AI's turn took  0.0005059242248535156 seconds.
+My AI's turn took  0.0008609294891357422 seconds.
+My AI's turn took  0.0008521080017089844 seconds.
+My AI's turn took  0.0008161067962646484 seconds.
+My AI's turn took  0.0012097358703613281 seconds.
+My AI's turn took  0.0010840892791748047 seconds.
+My AI's turn took  0.0008931159973144531 seconds.
+My AI's turn took  0.0010368824005126953 seconds.
+My AI's turn took  0.0011010169982910156 seconds.
+My AI's turn took  0.001027822494506836 seconds.
+My AI's turn took  0.000576019287109375 seconds.
+My AI's turn took  0.0005731582641601562 seconds.
+My AI's turn took  0.0006229877471923828 seconds.
+My AI's turn took  0.0007100105285644531 seconds.
+My AI's turn took  0.0007107257843017578 seconds.
+My AI's turn took  0.0006463527679443359 seconds.
+My AI's turn took  0.00044536590576171875 seconds.
+My AI's turn took  0.0004899501800537109 seconds.
+My AI's turn took  0.00015091896057128906 seconds.
+My AI's turn took  9.298324584960938e-05 seconds.
+My AI's turn took  0.00011706352233886719 seconds.
+My AI's turn took  6.103515625e-05 seconds.
+My AI's turn took  4.57763671875e-05 seconds.
+tdw won on boardsize 12.00 with a score of 119.00 to 25.00
+mobility won on boardsize 6.00 with a score of 16.00 to 20.00
+tdw won on boardsize 6.00 with a score of 30.00 to 6.00
+tdw won on boardsize 7.00 with a score of 40.00 to 9.00
+tdw won on boardsize 7.00 with a score of 40.00 to 9.00
+tdw won on boardsize 8.00 with a score of 51.00 to 13.00
+tdw won on boardsize 8.00 with a score of 53.00 to 11.00
+tdw won on boardsize 9.00 with a score of 49.00 to 32.00
+tdw won on boardsize 9.00 with a score of 56.00 to 25.00
+tdw won on boardsize 10.00 with a score of 57.00 to 43.00
+mobility won on boardsize 10.00 with a score of 22.00 to 78.00
+tdw won on boardsize 11.00 with a score of 80.00 to 41.00
+tdw won on boardsize 11.00 with a score of 75.00 to 46.00
+tdw won on boardsize 12.00 with a score of 110.00 to 34.00
+tdw won on boardsize 12.00 with a score of 105.00 to 39.00
+tdw won on boardsize 6.00 with a score of 26.00 to 10.00
+tdw won on boardsize 6.00 with a score of 28.00 to 8.00
+tdw won on boardsize 7.00 with a score of 41.00 to 8.00
+normalized won on boardsize 7.00 with a score of 0.00 to 16.00
+tdw won on boardsize 8.00 with a score of 37.00 to 27.00
+tdw won on boardsize 8.00 with a score of 59.00 to 3.00
+tdw won on boardsize 9.00 with a score of 78.00 to 3.00
+tdw won on boardsize 9.00 with a score of 54.00 to 27.00
+tdw won on boardsize 10.00 with a score of 66.00 to 34.00
+tdw won on boardsize 11.00 with a score of 84.00 to 37.00
+tdw won on boardsize 11.00 with a score of 79.00 to 42.00
+tdw won on boardsize 12.00 with a score of 91.00 to 53.00
+tdw won on boardsize 12.00 with a score of 102.00 to 42.00
+tdw won on boardsize 6.00 with a score of 27.00 to 9.00
+tdw won on boardsize 6.00 with a score of 29.00 to 7.00
+tdw won on boardsize 7.00 with a score of 38.00 to 11.00
+tdw won on boardsize 7.00 with a score of 29.00 to 20.00
+tdw won on boardsize 8.00 with a score of 44.00 to 20.00
+tdw won on boardsize 8.00 with a score of 54.00 to 10.00
+tdw won on boardsize 9.00 with a score of 71.00 to 10.00
+tdw won on boardsize 9.00 with a score of 69.00 to 12.00
+tdw won on boardsize 10.00 with a score of 76.00 to 24.00
+tdw won on boardsize 10.00 with a score of 72.00 to 28.00
+tdw won on boardsize 11.00 with a score of 110.00 to 1.00
+tdw won on boardsize 11.00 with a score of 64.00 to 57.00
+tdw won on boardsize 12.00 with a score of 94.00 to 50.00
+tdw won on boardsize 12.00 with a score of 88.00 to 56.00
+tdw won on boardsize 6.00 with a score of 27.00 to 9.00
+tdw won on boardsize 6.00 with a score of 28.00 to 8.00
+stab2 won on boardsize 7.00 with a score of 15.00 to 33.00
+tdw won on boardsize 7.00 with a score of 31.00 to 18.00
+tdw won on boardsize 8.00 with a score of 36.00 to 28.00
+tdw won on boardsize 8.00 with a score of 53.00 to 11.00
+tdw won on boardsize 9.00 with a score of 59.00 to 22.00
+tdw won on boardsize 9.00 with a score of 67.00 to 14.00
+tdw won on boardsize 10.00 with a score of 67.00 to 33.00
+tdw won on boardsize 10.00 with a score of 67.00 to 33.00
+tdw won on boardsize 11.00 with a score of 84.00 to 37.00
+tdw won on boardsize 11.00 with a score of 80.00 to 41.00
+tdw won on boardsize 12.00 with a score of 96.00 to 48.00
+tdw won on boardsize 12.00 with a score of 94.00 to 50.00
+tdw won on boardsize 6.00 with a score of 24.00 to 12.00
+tdw won on boardsize 7.00 with a score of 27.00 to 22.00
+tdw won on boardsize 7.00 with a score of 27.00 to 22.00
+tdw won on boardsize 8.00 with a score of 43.00 to 21.00
+tdw won on boardsize 8.00 with a score of 49.00 to 15.00
+stab2_equal won on boardsize 9.00 with a score of 37.00 to 44.00
+tdw won on boardsize 9.00 with a score of 49.00 to 32.00
+tdw won on boardsize 10.00 with a score of 51.00 to 49.00
+stab2_equal won on boardsize 10.00 with a score of 46.00 to 54.00
+stab2_equal won on boardsize 11.00 with a score of 39.00 to 82.00
+stab2_equal won on boardsize 11.00 with a score of 55.00 to 66.00
+tdw won on boardsize 12.00 with a score of 74.00 to 70.00

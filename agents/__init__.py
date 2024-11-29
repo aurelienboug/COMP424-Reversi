@@ -2,3 +2,27 @@ from .random_agent import RandomAgent
 from .human_agent import HumanAgent
 from .student_agent import StudentAgent
 from .gpt_greedy_corners_agent import StudentAgent
+from .min_opp_moves import MinOppAgent
+from .comparor import Comparor
+from .c2a import C2a
+from .c3a import C3a
+from .c4a import C4a
+from .c5a import C5a
+from .c6a import C6a
+from .board_score import Board_score
+from .corners import Corners
+from .equal import Equal
+from .mobility import Mobility
+from .parity import Parity
+from .stability import Stability
+from .time import Time
+from .time2 import Time2
+from .dynamic_weighting import Dynamic_wieghting
+from .stab2 import Stab2
+from .tdw import Tdw
+from .tstab2 import Tstab2
+from .stab2_equal import Stab2_equal
+from .normalized import Normalized
+from .stupid import Stupid
+from .more_corners import MoreCorners
+

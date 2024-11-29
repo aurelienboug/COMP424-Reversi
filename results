@@ -1,0 +1,394 @@
+(.venv) aurelien@Aureliens-MacBook-Pro COMP424-Fall2024 %  python simulator.py --player_1 c2a --player_2 c5a --autoplay
+c5a won on boardsize 6.00 with a score of 16.00 to 20.00
+c5a won on boardsize 6.00 with a score of 11.00 to 25.00
+c5a won on boardsize 7.00 with a score of 17.00 to 32.00
+c2a won on boardsize 7.00 with a score of 27.00 to 22.00
+c5a won on boardsize 8.00 with a score of 21.00 to 43.00
+c5a won on boardsize 8.00 with a score of 12.00 to 52.00
+c5a won on boardsize 9.00 with a score of 26.00 to 55.00
+c2a won on boardsize 9.00 with a score of 42.00 to 39.00
+c2a won on boardsize 10.00 with a score of 54.00 to 46.00
+c2a won on boardsize 10.00 with a score of 69.00 to 31.00
+c5a won on boardsize 11.00 with a score of 48.00 to 73.00
+c5a won on boardsize 11.00 with a score of 52.00 to 69.00
+c5a won on boardsize 12.00 with a score of 70.00 to 74.00
+c2a won on boardsize 12.00 with a score of 85.00 to 59.00
+INFO:Player 1, agent c2a, win percentage: 0.35714285714285715. Maximum turn time was 287.6005 seconds.
+INFO:Player 2, agent c5a, win percentage: 0.6428571428571429. Maximum turn time was 1028.53343 seconds.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+c5a won on boardsize 6.00 with a score of 30.00 to 5.00
+c5a won on boardsize 6.00 with a score of 29.00 to 6.00
+c5a won on boardsize 7.00 with a score of 31.00 to 18.00
+c5a won on boardsize 7.00 with a score of 37.00 to 12.00
+c5a won on boardsize 8.00 with a score of 40.00 to 24.00
+board_score won on boardsize 8.00 with a score of 14.00 to 50.00
+c5a won on boardsize 9.00 with a score of 54.00 to 27.00
+c5a won on boardsize 9.00 with a score of 47.00 to 34.00
+c5a won on boardsize 10.00 with a score of 61.00 to 39.00
+c5a won on boardsize 10.00 with a score of 78.00 to 22.00
+c5a won on boardsize 11.00 with a score of 69.00 to 52.00
+c5a won on boardsize 11.00 with a score of 86.00 to 35.00
+c5a won on boardsize 12.00 with a score of 73.00 to 71.00
+board_score won on boardsize 12.00 with a score of 61.00 to 83.00
+corners won on boardsize 6.00 with a score of 16.00 to 20.00
+corners won on boardsize 6.00 with a score of 15.00 to 21.00
+corners won on boardsize 7.00 with a score of 15.00 to 34.00
+c5a won on boardsize 7.00 with a score of 38.00 to 11.00
+c5a won on boardsize 8.00 with a score of 34.00 to 30.00
+c5a won on boardsize 8.00 with a score of 47.00 to 17.00
+c5a won on boardsize 9.00 with a score of 62.00 to 19.00
+c5a won on boardsize 9.00 with a score of 50.00 to 31.00
+c5a won on boardsize 10.00 with a score of 28.00 to 0.00
+corners won on boardsize 10.00 with a score of 49.00 to 51.00
+c5a won on boardsize 11.00 with a score of 87.00 to 34.00
+c5a won on boardsize 11.00 with a score of 95.00 to 26.00
+c5a won on boardsize 12.00 with a score of 113.00 to 31.00
+c5a won on boardsize 12.00 with a score of 32.00 to 0.00
+c5a won on boardsize 6.00 with a score of 23.00 to 13.00
+equal won on boardsize 6.00 with a score of 12.00 to 24.00
+c5a won on boardsize 7.00 with a score of 31.00 to 18.00
+equal won on boardsize 7.00 with a score of 18.00 to 31.00
+equal won on boardsize 8.00 with a score of 18.00 to 46.00
+c5a won on boardsize 8.00 with a score of 46.00 to 18.00
+equal won on boardsize 9.00 with a score of 28.00 to 53.00
+equal won on boardsize 9.00 with a score of 34.00 to 47.00
+equal won on boardsize 10.00 with a score of 44.00 to 56.00
+c5a won on boardsize 10.00 with a score of 52.00 to 48.00
+equal won on boardsize 11.00 with a score of 32.00 to 89.00
+equal won on boardsize 11.00 with a score of 52.00 to 69.00
+c5a won on boardsize 12.00 with a score of 91.00 to 53.00
+c5a won on boardsize 12.00 with a score of 86.00 to 58.00
+c5a won on boardsize 6.00 with a score of 27.00 to 9.00
+c5a won on boardsize 6.00 with a score of 26.00 to 10.00
+mobility won on boardsize 7.00 with a score of 24.00 to 25.00
+c5a won on boardsize 7.00 with a score of 32.00 to 17.00
+c5a won on boardsize 8.00 with a score of 39.00 to 25.00
+c5a won on boardsize 8.00 with a score of 41.00 to 23.00
+c5a won on boardsize 9.00 with a score of 55.00 to 26.00
+c5a won on boardsize 9.00 with a score of 45.00 to 36.00
+mobility won on boardsize 10.00 with a score of 43.00 to 57.00
+mobility won on boardsize 10.00 with a score of 48.00 to 52.00
+c5a won on boardsize 11.00 with a score of 74.00 to 47.00
+c5a won on boardsize 11.00 with a score of 84.00 to 37.00
+mobility won on boardsize 12.00 with a score of 46.00 to 98.00
+mobility won on boardsize 12.00 with a score of 53.00 to 91.00
+c5a won on boardsize 6.00 with a score of 27.00 to 9.00
+c5a won on boardsize 6.00 with a score of 31.00 to 5.00
+c5a won on boardsize 7.00 with a score of 28.00 to 21.00
+c5a won on boardsize 7.00 with a score of 29.00 to 20.00
+c5a won on boardsize 8.00 with a score of 46.00 to 18.00
+c5a won on boardsize 8.00 with a score of 40.00 to 24.00
+c5a won on boardsize 9.00 with a score of 48.00 to 33.00
+c5a won on boardsize 9.00 with a score of 61.00 to 20.00
+parity won on boardsize 10.00 with a score of 49.00 to 51.00
+parity won on boardsize 10.00 with a score of 47.00 to 53.00
+c5a won on boardsize 11.00 with a score of 80.00 to 41.00
+parity won on boardsize 11.00 with a score of 58.00 to 63.00
+c5a won on boardsize 12.00 with a score of 92.00 to 52.00
+c5a won on boardsize 12.00 with a score of 93.00 to 51.00
+c5a won on boardsize 6.00 with a score of 36.00 to 0.00
+c5a won on boardsize 6.00 with a score of 28.00 to 8.00
+stability won on boardsize 7.00 with a score of 21.00 to 28.00
+c5a won on boardsize 7.00 with a score of 34.00 to 15.00
+stability won on boardsize 8.00 with a score of 24.00 to 40.00
+c5a won on boardsize 8.00 with a score of 48.00 to 16.00
+c5a won on boardsize 9.00 with a score of 42.00 to 39.00
+c5a won on boardsize 9.00 with a score of 29.00 to 0.00
+stability won on boardsize 10.00 with a score of 35.00 to 65.00
+c5a won on boardsize 10.00 with a score of 65.00 to 35.00
+c5a won on boardsize 11.00 with a score of 70.00 to 51.00
+stability won on boardsize 11.00 with a score of 54.00 to 67.00
+c5a won on boardsize 12.00 with a score of 89.00 to 55.00
+c5a won on boardsize 12.00 with a score of 15.00 to 0.00
+
+
+INFO:Player 1, agent c5a, win percentage: 0.8571428571428571. Maximum turn time was 2.01887 seconds.
+INFO:Player 2, agent board_score, win percentage: 0.14285714285714285. Maximum turn time was 2.00497 seconds.
+INFO:Player 1, agent c5a, win percentage: 0.7142857142857143. Maximum turn time was 2.01272 seconds.
+INFO:Player 2, agent corners, win percentage: 0.2857142857142857. Maximum turn time was 2.00426 seconds.
+INFO:Player 1, agent c5a, win percentage: 0.42857142857142855. Maximum turn time was 2.01876 seconds.
+INFO:Player 2, agent equal, win percentage: 0.5714285714285714. Maximum turn time was 2.04442 seconds.
+INFO:Player 1, agent c5a, win percentage: 0.6428571428571429. Maximum turn time was 2.0159 seconds.
+INFO:Player 2, agent mobility, win percentage: 0.35714285714285715. Maximum turn time was 2.01821 seconds.
+INFO:Player 1, agent c5a, win percentage: 0.7857142857142857. Maximum turn time was 2.02529 seconds.
+INFO:Player 2, agent parity, win percentage: 0.21428571428571427. Maximum turn time was 2.00519 seconds.
+INFO:Player 1, agent c5a, win percentage: 0.7142857142857143. Maximum turn time was 2.01099 seconds.
+INFO:Player 2, agent stability, win percentage: 0.2857142857142857. Maximum turn time was 2.00541 seconds.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+time won on boardsize 6.00 with a score of 22.00 to 14.00
+time won on boardsize 6.00 with a score of 19.00 to 17.00
+board_score won on boardsize 7.00 with a score of 0.00 to 25.00
+time won on boardsize 7.00 with a score of 33.00 to 16.00
+time won on boardsize 8.00 with a score of 33.00 to 31.00
+time won on boardsize 9.00 with a score of 62.00 to 19.00
+time won on boardsize 9.00 with a score of 60.00 to 21.00
+time won on boardsize 10.00 with a score of 86.00 to 14.00
+time won on boardsize 10.00 with a score of 64.00 to 36.00
+time won on boardsize 11.00 with a score of 79.00 to 42.00
+time won on boardsize 11.00 with a score of 92.00 to 29.00
+time won on boardsize 12.00 with a score of 103.00 to 41.00
+time won on boardsize 12.00 with a score of 91.00 to 53.00
+time won on boardsize 6.00 with a score of 23.00 to 13.00
+corners won on boardsize 6.00 with a score of 14.00 to 22.00
+corners won on boardsize 7.00 with a score of 21.00 to 27.00
+time won on boardsize 7.00 with a score of 36.00 to 13.00
+time won on boardsize 8.00 with a score of 52.00 to 12.00
+time won on boardsize 8.00 with a score of 64.00 to 0.00
+corners won on boardsize 9.00 with a score of 24.00 to 57.00
+time won on boardsize 9.00 with a score of 45.00 to 36.00
+time won on boardsize 10.00 with a score of 82.00 to 18.00
+time won on boardsize 10.00 with a score of 86.00 to 14.00
+time won on boardsize 11.00 with a score of 88.00 to 33.00
+time won on boardsize 11.00 with a score of 89.00 to 32.00
+time won on boardsize 12.00 with a score of 113.00 to 31.00
+time won on boardsize 12.00 with a score of 100.00 to 44.00
+equal won on boardsize 6.00 with a score of 9.00 to 27.00
+equal won on boardsize 6.00 with a score of 8.00 to 28.00
+time won on boardsize 7.00 with a score of 31.00 to 18.00
+time won on boardsize 7.00 with a score of 40.00 to 9.00
+time won on boardsize 8.00 with a score of 38.00 to 26.00
+An exception raised. The traceback is as follows:
+Traceback (most recent call last):
+  File "/Users/aurelien/PycharmProjects/pythonProject1/COMP424-Fall2024/world.py", line 182, in step
+    if count_capture(self.chess_board, move_pos, cur_player) == 0:
+  File "/Users/aurelien/PycharmProjects/pythonProject1/COMP424-Fall2024/helpers.py", line 45, in count_capture
+    r, c = move_pos
+TypeError: cannot unpack non-iterable NoneType object
+
+Executing Random Move!
+equal won on boardsize 8.00 with a score of 30.00 to 34.00
+equal won on boardsize 9.00 with a score of 36.00 to 45.00
+equal won on boardsize 9.00 with a score of 27.00 to 54.00
+time won on boardsize 10.00 with a score of 54.00 to 46.00
+equal won on boardsize 10.00 with a score of 49.00 to 51.00
+equal won on boardsize 11.00 with a score of 0.00 to 27.00
+time won on boardsize 11.00 with a score of 108.00 to 13.00
+time won on boardsize 12.00 with a score of 111.00 to 33.00
+time won on boardsize 12.00 with a score of 86.00 to 58.00
+mobility won on boardsize 6.00 with a score of 12.00 to 24.00
+time won on boardsize 6.00 with a score of 23.00 to 13.00
+time won on boardsize 7.00 with a score of 45.00 to 4.00
+time won on boardsize 7.00 with a score of 44.00 to 5.00
+time won on boardsize 8.00 with a score of 38.00 to 26.00
+time won on boardsize 8.00 with a score of 44.00 to 20.00
+time won on boardsize 9.00 with a score of 63.00 to 18.00
+mobility won on boardsize 9.00 with a score of 25.00 to 56.00
+time won on boardsize 10.00 with a score of 75.00 to 25.00
+time won on boardsize 10.00 with a score of 71.00 to 29.00
+time won on boardsize 11.00 with a score of 94.00 to 27.00
+time won on boardsize 11.00 with a score of 77.00 to 44.00
+mobility won on boardsize 12.00 with a score of 58.00 to 86.00
+time won on boardsize 12.00 with a score of 78.00 to 66.00
+time won on boardsize 6.00 with a score of 25.00 to 1.00
+parity won on boardsize 6.00 with a score of 1.00 to 35.00
+time won on boardsize 7.00 with a score of 43.00 to 6.00
+time won on boardsize 7.00 with a score of 42.00 to 7.00
+time won on boardsize 8.00 with a score of 62.00 to 2.00
+time won on boardsize 8.00 with a score of 58.00 to 6.00
+time won on boardsize 9.00 with a score of 77.00 to 4.00
+time won on boardsize 9.00 with a score of 54.00 to 27.00
+time won on boardsize 10.00 with a score of 54.00 to 46.00
+time won on boardsize 10.00 with a score of 85.00 to 15.00
+time won on boardsize 11.00 with a score of 93.00 to 28.00
+time won on boardsize 11.00 with a score of 85.00 to 36.00
+time won on boardsize 12.00 with a score of 96.00 to 48.00
+time won on boardsize 12.00 with a score of 100.00 to 44.00
+time won on boardsize 6.00 with a score of 31.00 to 4.00
+time won on boardsize 6.00 with a score of 28.00 to 8.00
+stability won on boardsize 7.00 with a score of 22.00 to 27.00
+time won on boardsize 7.00 with a score of 40.00 to 9.00
+time won on boardsize 8.00 with a score of 33.00 to 31.00
+time won on boardsize 9.00 with a score of 65.00 to 16.00
+time won on boardsize 9.00 with a score of 52.00 to 29.00
+stability won on boardsize 10.00 with a score of 43.00 to 57.00
+time won on boardsize 10.00 with a score of 60.00 to 40.00
+time won on boardsize 11.00 with a score of 61.00 to 60.00
+time won on boardsize 11.00 with a score of 84.00 to 37.00
+time won on boardsize 12.00 with a score of 94.00 to 50.00
+stability won on boardsize 12.00 with a score of 43.00 to 101.00
+c5a won on boardsize 6.00 with a score of 8.00 to 28.00
+time won on boardsize 6.00 with a score of 22.00 to 14.00
+c5a won on boardsize 7.00 with a score of 0.00 to 28.00
+time won on boardsize 7.00 with a score of 41.00 to 8.00
+time won on boardsize 8.00 with a score of 59.00 to 5.00
+time won on boardsize 8.00 with a score of 61.00 to 0.00
+time won on boardsize 9.00 with a score of 62.00 to 19.00
+time won on boardsize 9.00 with a score of 56.00 to 25.00
+time won on boardsize 10.00 with a score of 68.00 to 32.00
+time won on boardsize 10.00 with a score of 79.00 to 21.00
+time won on boardsize 11.00 with a score of 90.00 to 31.00
+time won on boardsize 11.00 with a score of 77.00 to 44.00
+time won on boardsize 12.00 with a score of 95.00 to 49.00
+c5a won on boardsize 12.00 with a score of 70.00 to 74.00
+
+
+INFO:Player 1, agent time, win percentage: 0.8928571428571429. Maximum turn time was 2.01432 seconds.
+INFO:Player 2, agent board_score, win percentage: 0.10714285714285714. Maximum turn time was 2.0043 seconds.
+INFO:Player 1, agent time, win percentage: 0.7857142857142857. Maximum turn time was 2.01485 seconds.
+INFO:Player 2, agent corners, win percentage: 0.21428571428571427. Maximum turn time was 2.00554 seconds.
+INFO:Player 1, agent time, win percentage: 0.5. Maximum turn time was 2.01805 seconds.
+INFO:Player 2, agent equal, win percentage: 0.5. Maximum turn time was 2.01848 seconds.
+INFO:Player 1, agent time, win percentage: 0.7857142857142857. Maximum turn time was 2.01727 seconds.
+INFO:Player 2, agent mobility, win percentage: 0.21428571428571427. Maximum turn time was 2.01828 seconds.
+INFO:Player 1, agent time, win percentage: 0.9285714285714286. Maximum turn time was 2.01608 seconds.
+INFO:Player 2, agent parity, win percentage: 0.07142857142857142. Maximum turn time was 2.00408 seconds.
+INFO:Player 1, agent time, win percentage: 0.75. Maximum turn time was 2.01348 seconds.
+INFO:Player 2, agent stability, win percentage: 0.25. Maximum turn time was 2.0066 seconds.
+INFO:Player 1, agent time, win percentage: 0.7857142857142857. Maximum turn time was 2.01428 seconds.
+INFO:Player 2, agent c5a, win percentage: 0.21428571428571427. Maximum turn time was 2.02077 seconds.
+
+parity
+board_score
+corners , mobility , c5a
+stability
+equal
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+time won on boardsize 8.00 with a score of 39.00 to 25.00
+time won on boardsize 9.00 with a score of 61.00 to 20.00
+time won on boardsize 9.00 with a score of 44.00 to 37.00
+time2 won on boardsize 10.00 with a score of 42.00 to 58.00
+time2 won on boardsize 10.00 with a score of 46.00 to 54.00
+time won on boardsize 11.00 with a score of 72.00 to 49.00
+time2 won on boardsize 11.00 with a score of 50.00 to 71.00
+time2 won on boardsize 12.00 with a score of 41.00 to 103.00
+time won on boardsize 12.00 with a score of 82.00 to 62.00
+INFO:Player 1, agent time, win percentage: 0.5714285714285714. Maximum turn time was 2.01933 seconds.
+INFO:Player 2, agent time2, win percentage: 0.42857142857142855. Maximum turn time was 2.01731 seconds.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+tdw won on boardsize 6.00 with a score of 13.00 to 22.00
+tdw won on boardsize 7.00 with a score of 15.00 to 34.00
+tdw won on boardsize 7.00 with a score of 20.00 to 29.00
+c5a won on boardsize 8.00 with a score of 30.00 to 0.00
+c5a won on boardsize 8.00 with a score of 37.00 to 27.00
+tdw won on boardsize 9.00 with a score of 16.00 to 65.00
+tdw won on boardsize 9.00 with a score of 29.00 to 52.00
+tdw won on boardsize 10.00 with a score of 34.00 to 66.00
+tdw won on boardsize 10.00 with a score of 35.00 to 65.00
+c5a won on boardsize 11.00 with a score of 87.00 to 34.00
+tdw won on boardsize 11.00 with a score of 48.00 to 73.00
+tdw won on boardsize 12.00 with a score of 56.00 to 88.00
+tdw won on boardsize 12.00 with a score of 56.00 to 88.00
+time won on boardsize 6.00 with a score of 25.00 to 11.00
+time won on boardsize 7.00 with a score of 31.00 to 18.00
+time won on boardsize 7.00 with a score of 25.00 to 24.00
+time won on boardsize 8.00 with a score of 44.00 to 20.00
+tdw won on boardsize 8.00 with a score of 30.00 to 34.00
+tdw won on boardsize 9.00 with a score of 18.00 to 63.00
+time won on boardsize 9.00 with a score of 55.00 to 26.00
+time won on boardsize 10.00 with a score of 65.00 to 35.00
+tdw won on boardsize 10.00 with a score of 44.00 to 56.00
+tdw won on boardsize 11.00 with a score of 50.00 to 71.00
+tdw won on boardsize 11.00 with a score of 54.00 to 67.00
+time won on boardsize 12.00 with a score of 75.00 to 69.00
+time won on boardsize 12.00 with a score of 75.00 to 69.00
+time won on boardsize 6.00 with a score of 26.00 to 10.00
+tstab2 won on boardsize 6.00 with a score of 10.00 to 26.00
+tstab2 won on boardsize 7.00 with a score of 15.00 to 34.00
+time won on boardsize 7.00 with a score of 26.00 to 23.00
+tstab2 won on boardsize 8.00 with a score of 17.00 to 47.00
+time won on boardsize 8.00 with a score of 45.00 to 19.00
+time won on boardsize 9.00 with a score of 54.00 to 27.00
+tstab2 won on boardsize 9.00 with a score of 20.00 to 61.00
+time won on boardsize 10.00 with a score of 76.00 to 24.00
+tstab2 won on boardsize 10.00 with a score of 11.00 to 89.00
+equal won on boardsize 6.00 with a score of 24.00 to 12.00
+equal won on boardsize 6.00 with a score of 20.00 to 16.00
+equal won on boardsize 7.00 with a score of 39.00 to 10.00
+equal won on boardsize 7.00 with a score of 29.00 to 20.00
+equal won on boardsize 8.00 with a score of 36.00 to 28.00
+equal won on boardsize 8.00 with a score of 39.00 to 25.00
+equal won on boardsize 9.00 with a score of 52.00 to 29.00
+dynamic_weighting won on boardsize 9.00 with a score of 39.00 to 42.00
+dynamic_weighting won on boardsize 10.00 with a score of 49.00 to 51.00
+dynamic_weighting won on boardsize 10.00 with a score of 37.00 to 62.00
+equal won on boardsize 11.00 with a score of 62.00 to 59.00
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+equal won on boardsize 6.00 with a score of 14.00 to 22.00
+equal won on boardsize 6.00 with a score of 13.00 to 23.00
+equal won on boardsize 7.00 with a score of 14.00 to 35.00
+stab2_equal won on boardsize 7.00 with a score of 25.00 to 24.00
+stab2_equal won on boardsize 8.00 with a score of 39.00 to 25.00
+equal won on boardsize 8.00 with a score of 23.00 to 41.00
+equal won on boardsize 9.00 with a score of 37.00 to 44.00
+stab2_equal won on boardsize 9.00 with a score of 51.00 to 30.00
+stab2_equal won on boardsize 10.00 with a score of 85.00 to 15.00
+stab2_equal won on boardsize 10.00 with a score of 58.00 to 42.00
+equal won on boardsize 11.00 with a score of 46.00 to 75.00
+stab2_equal won on boardsize 11.00 with a score of 89.00 to 32.00
+stab2_equal won on boardsize 12.00 with a score of 92.00 to 52.00
+equal won on boardsize 12.00 with a score of 61.00 to 83.00
+INFO:Player 1, agent stab2_equal, win percentage: 0.5. Maximum turn time was 2.02058 seconds.
+INFO:Player 2, agent equal, win percentage: 0.5. Maximum turn time was 2.02021 seconds.
+
+tdw>equal>stab2_equal>time
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+tdw won on boardsize 6.00 with a score of 17.00 to 19.00
+equal won on boardsize 6.00 with a score of 26.00 to 10.00
+equal won on boardsize 7.00 with a score of 29.00 to 20.00
+tdw won on boardsize 7.00 with a score of 22.00 to 27.00
+tdw won on boardsize 8.00 with a score of 25.00 to 39.00
+tdw won on boardsize 8.00 with a score of 22.00 to 42.00
+tdw won on boardsize 9.00 with a score of 26.00 to 55.00
+tdw won on boardsize 9.00 with a score of 27.00 to 54.00
+tdw won on boardsize 10.00 with a score of 49.00 to 51.00
+equal won on boardsize 10.00 with a score of 58.00 to 42.00
+tdw won on boardsize 11.00 with a score of 32.00 to 89.00
+tdw won on boardsize 11.00 with a score of 31.00 to 90.00
+equal won on boardsize 12.00 with a score of 97.00 to 47.00
+equal won on boardsize 12.00 with a score of 97.00 to 47.00
+INFO:Player 1, agent equal, win percentage: 0.35714285714285715. Maximum turn time was 2.03875 seconds.
+INFO:Player 2, agent tdw, win percentage: 0.6428571428571429. Maximum turn time was 2.04377 seconds.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO:Player 1, agent tdw, win percentage: 0.8571428571428571. Maximum turn time was 2.01654 seconds.
+INFO:Player 2, agent board_score, win percentage: 0.14285714285714285. Maximum turn time was 2.00485 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.6428571428571429. Maximum turn time was 2.01772 seconds.
+INFO:Player 2, agent c2a, win percentage: 0.35714285714285715. Maximum turn time was 2.00993 seconds.
+INFO:Player 1, agent tdw, win percentage: 1.0. Maximum turn time was 2.01936 seconds.
+INFO:Player 2, agent c3a, win percentage: 0.0. Maximum turn time was 0.85485 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.7857142857142857. Maximum turn time was 922.10408 seconds.
+INFO:Player 2, agent c4a, win percentage: 0.21428571428571427. Maximum turn time was 0.71776 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.7857142857142857. Maximum turn time was 356.75448 seconds.
+INFO:Player 2, agent c5a, win percentage: 0.21428571428571427. Maximum turn time was 2.02253 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.6428571428571429. Maximum turn time was 2.02163 seconds.
+INFO:Player 2, agent c6a, win percentage: 0.35714285714285715. Maximum turn time was 2.02086 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.9285714285714286. Maximum turn time was 2.02132 seconds.
+INFO:Player 2, agent comparor, win percentage: 0.07142857142857142. Maximum turn time was 0.37269 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.8571428571428571. Maximum turn time was 2.01832 seconds.
+INFO:Player 2, agent dynamic_weighting, win percentage: 0.14285714285714285. Maximum turn time was 2.00733 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.6071428571428571. Maximum turn time was 920.91781 seconds.
+INFO:Player 2, agent equal, win percentage: 0.39285714285714285. Maximum turn time was 356.70709 seconds.
+INFO:Player 1, agent tdw, win percentage: 1.0. Maximum turn time was 2.01542 seconds.
+INFO:Player 2, agent gpt_greedy_corners_agent, win percentage: 0.0. Maximum turn time was 0.01201 seconds.
+INFO:Player 1, agent tdw, win percentage: 1.0. Maximum turn time was 2.01225 seconds.
+INFO:Player 2, agent min_opp_moves, win percentage: 0.0. Maximum turn time was 0.00415 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.8571428571428571. Maximum turn time was 2.03125 seconds.
+INFO:Player 2, agent mobility, win percentage: 0.14285714285714285. Maximum turn time was 2.01479 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.8928571428571429. Maximum turn time was 2.01492 seconds.
+INFO:Player 2, agent normalized, win percentage: 0.10714285714285714. Maximum turn time was 2.01741 seconds.
+INFO:Player 1, agent tdw, win percentage: 1.0. Maximum turn time was 920.95062 seconds.
+INFO:Player 2, agent parity, win percentage: 0.0. Maximum turn time was 356.67697 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.9285714285714286. Maximum turn time was 2.01792 seconds.
+INFO:Player 2, agent stab2, win percentage: 0.07142857142857142. Maximum turn time was 2.00701 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.7857142857142857. Maximum turn time was 2.01633 seconds.
+INFO:Player 2, agent stability, win percentage: 0.21428571428571427. Maximum turn time was 2.00723 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.5714285714285714. Maximum turn time was 2.01812 seconds.
+INFO:Player 2, agent time, win percentage: 0.42857142857142855. Maximum turn time was 2.01445 seconds.
+INFO:Player 1, agent tdw, win percentage: 0.5714285714285714. Maximum turn time was 910.71261 seconds.
+INFO:Player 2, agent time2, win percentage: 0.42857142857142855. Maximum turn time was 920.95527 seconds.
+

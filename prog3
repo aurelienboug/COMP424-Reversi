@@ -1,0 +1,5 @@
+python simulator.py --player_1 tdw --player_2  stability --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  time --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  time2 --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  tdw --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  tstab2 --autoplay --autoplay_runs 14

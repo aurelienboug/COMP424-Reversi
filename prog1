@@ -1,0 +1,5 @@
+python simulator.py --player_1 tdw --player_2  c6a --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  comparor --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  dynamic_weighting --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  equal --autoplay --autoplay_runs 14
+ python simulator.py --player_1 tdw --player_2  gpt_greedy_corners_agent --autoplay --autoplay_runs 14

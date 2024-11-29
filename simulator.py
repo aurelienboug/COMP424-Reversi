@@ -14,7 +14,7 @@ def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--player_1", type=str, default="random_agent")
     parser.add_argument("--player_2", type=str, default="random_agent")
-    parser.add_argument("--board_size", type=int, default=None)
+    parser.add_argument("--board_size", type=int, default=8)
     parser.add_argument(
         "--board_size_min",
         type=int,
@@ -28,11 +28,12 @@ def get_args():
         help="In autoplay mode, the maximum board size",
     )
     parser.add_argument("--display", action="store_true", default=False)
-    parser.add_argument("--display_delay", type=float, default=0.4)
+    parser.add_argument("--display_delay", type=float, default=0)
     parser.add_argument("--display_save", action="store_true", default=False)
     parser.add_argument("--display_save_path", type=str, default="plots/")
     parser.add_argument("--autoplay", action="store_true", default=False)
-    parser.add_argument("--autoplay_runs", type=int, default=100)
+    parser.add_argument("--autoplay_runs", type=int, default=14)
+    parser.add_argument("--info", type=str, default=True)
     args = parser.parse_args()
     return args
 
@@ -84,8 +85,9 @@ class Simulator:
     def run(self, swap_players=False, board_size=None):
         self.reset(swap_players=swap_players, board_size=board_size)
         is_end, p0_score, p1_score = self.world.step()
-        while not is_end:
-            is_end, p0_score, p1_score = self.world.step()
+        with all_logging_disabled():
+            while not is_end:
+                is_end, p0_score, p1_score = self.world.step()
         logger.info(
             f"Run finished. {PLAYER_1_NAME} player, agent {self.args.player_1}: {p0_score}. {PLAYER_2_NAME}, agent {self.args.player_2}: {p1_score}"
         )
@@ -105,7 +107,7 @@ class Simulator:
         with all_logging_disabled():
             for i in range(self.args.autoplay_runs):
                 swap_players = i % 2 == 0
-                board_size = self.valid_board_sizes[ np.random.randint(len(self.valid_board_sizes)) ] 
+                board_size = [6,6,7,7,8,8,9,9,10,10,11,11,12,12][i%14]
                 p0_score, p1_score, p0_time, p1_time = self.run(
                     swap_players=swap_players, board_size=board_size
                 )
@@ -118,8 +120,10 @@ class Simulator:
                     )
                 if p0_score > p1_score:
                     p1_win_count += 1
+                    print(f"{self.args.player_1} won on boardsize {board_size:.2f} with a score of {p0_score:.2f} to {p1_score:.2f}")
                 elif p0_score < p1_score:
                     p2_win_count += 1
+                    print(f"{self.args.player_2} won on boardsize {board_size:.2f} with a score of {p0_score:.2f} to {p1_score:.2f}")
                 else:  # Tie
                     p1_win_count += 0.5
                     p2_win_count += 0.5

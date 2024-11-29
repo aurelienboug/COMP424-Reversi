@@ -1,0 +1,79 @@
+tdw won on boardsize 6.00 with a score of 32.00 to 4.00
+tdw won on boardsize 6.00 with a score of 34.00 to 2.00
+board_score won on boardsize 7.00 with a score of 0.00 to 25.00
+tdw won on boardsize 7.00 with a score of 33.00 to 16.00
+tdw won on boardsize 8.00 with a score of 35.00 to 29.00
+board_score won on boardsize 8.00 with a score of 0.00 to 32.00
+tdw won on boardsize 9.00 with a score of 53.00 to 28.00
+tdw won on boardsize 9.00 with a score of 67.00 to 14.00
+tdw won on boardsize 10.00 with a score of 72.00 to 28.00
+tdw won on boardsize 10.00 with a score of 59.00 to 41.00
+tdw won on boardsize 11.00 with a score of 85.00 to 36.00
+tdw won on boardsize 11.00 with a score of 103.00 to 18.00
+tdw won on boardsize 12.00 with a score of 82.00 to 62.00
+tdw won on boardsize 12.00 with a score of 95.00 to 49.00
+c2a won on boardsize 6.00 with a score of 5.00 to 31.00
+c2a won on boardsize 6.00 with a score of 14.00 to 22.00
+tdw won on boardsize 7.00 with a score of 45.00 to 4.00
+tdw won on boardsize 7.00 with a score of 30.00 to 19.00
+tdw won on boardsize 8.00 with a score of 44.00 to 20.00
+tdw won on boardsize 8.00 with a score of 48.00 to 16.00
+c2a won on boardsize 9.00 with a score of 37.00 to 44.00
+c2a won on boardsize 9.00 with a score of 33.00 to 48.00
+tdw won on boardsize 10.00 with a score of 71.00 to 29.00
+tdw won on boardsize 10.00 with a score of 68.00 to 32.00
+c2a won on boardsize 11.00 with a score of 45.00 to 76.00
+tdw won on boardsize 11.00 with a score of 64.00 to 57.00
+tdw won on boardsize 12.00 with a score of 77.00 to 67.00
+tdw won on boardsize 12.00 with a score of 86.00 to 58.00
+tdw won on boardsize 6.00 with a score of 27.00 to 9.00
+tdw won on boardsize 6.00 with a score of 29.00 to 7.00
+tdw won on boardsize 7.00 with a score of 39.00 to 10.00
+tdw won on boardsize 7.00 with a score of 43.00 to 6.00
+tdw won on boardsize 8.00 with a score of 56.00 to 8.00
+tdw won on boardsize 8.00 with a score of 61.00 to 3.00
+tdw won on boardsize 9.00 with a score of 63.00 to 18.00
+tdw won on boardsize 9.00 with a score of 63.00 to 18.00
+tdw won on boardsize 10.00 with a score of 84.00 to 16.00
+tdw won on boardsize 10.00 with a score of 82.00 to 18.00
+tdw won on boardsize 11.00 with a score of 99.00 to 22.00
+tdw won on boardsize 11.00 with a score of 88.00 to 33.00
+tdw won on boardsize 12.00 with a score of 96.00 to 48.00
+tdw won on boardsize 12.00 with a score of 108.00 to 36.00
+tdw won on boardsize 6.00 with a score of 30.00 to 6.00
+c4a won on boardsize 6.00 with a score of 17.00 to 19.00
+tdw won on boardsize 7.00 with a score of 28.00 to 21.00
+c4a won on boardsize 7.00 with a score of 22.00 to 27.00
+tdw won on boardsize 8.00 with a score of 42.00 to 22.00
+tdw won on boardsize 8.00 with a score of 52.00 to 12.00
+tdw won on boardsize 9.00 with a score of 67.00 to 14.00
+c4a won on boardsize 9.00 with a score of 40.00 to 41.00
+tdw won on boardsize 10.00 with a score of 78.00 to 22.00
+tdw won on boardsize 10.00 with a score of 86.00 to 14.00
+tdw won on boardsize 11.00 with a score of 82.00 to 39.00
+tdw won on boardsize 11.00 with a score of 97.00 to 24.00
+tdw won on boardsize 12.00 with a score of 84.00 to 60.00
+tdw won on boardsize 12.00 with a score of 87.00 to 57.00
+An exception raised. The traceback is as follows:
+Traceback (most recent call last):
+  File "/Users/aurelien/PycharmProjects/pythonProject1/COMP424-Fall2024/world.py", line 182, in step
+    if count_capture(self.chess_board, move_pos, cur_player) == 0:
+  File "/Users/aurelien/PycharmProjects/pythonProject1/COMP424-Fall2024/helpers.py", line 45, in count_capture
+    r, c = move_pos
+TypeError: cannot unpack non-iterable NoneType object
+
+Executing Random Move!
+tdw won on boardsize 6.00 with a score of 30.00 to 6.00
+tdw won on boardsize 6.00 with a score of 22.00 to 14.00
+tdw won on boardsize 7.00 with a score of 41.00 to 8.00
+tdw won on boardsize 7.00 with a score of 43.00 to 6.00
+c5a won on boardsize 8.00 with a score of 26.00 to 38.00
+c5a won on boardsize 8.00 with a score of 30.00 to 34.00
+tdw won on boardsize 9.00 with a score of 74.00 to 7.00
+tdw won on boardsize 9.00 with a score of 52.00 to 29.00
+tdw won on boardsize 10.00 with a score of 59.00 to 41.00
+tdw won on boardsize 10.00 with a score of 63.00 to 37.00
+tdw won on boardsize 11.00 with a score of 77.00 to 44.00
+tdw won on boardsize 11.00 with a score of 71.00 to 50.00
+c5a won on boardsize 12.00 with a score of 62.00 to 82.00
+tdw won on boardsize 12.00 with a score of 107.00 to 37.00

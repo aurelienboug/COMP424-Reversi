@@ -87,4 +87,4 @@ class StudentAgent(Agent):
         return total_score
 
 # Ensure to test with:
-# python simulator.py --player_1 student_agent --player_2 random_agent --display
+# python simulator.py --player_1 student_agent --player_2 gpt_greedy_corners_agent --display
