@@ -8,6 +8,16 @@ from helpers import random_move, count_capture, execute_move, check_endgame, get
 
 TIME_LIMIT = 2
 
+from agents.agent import Agent
+from store import register_agent
+import sys
+import numpy as np
+from copy import deepcopy
+import time
+from helpers import random_move, count_capture, execute_move, check_endgame, get_valid_moves
+
+TIME_LIMIT = 1.98
+
 
 def ratio(num1, num2):
     result = 0
@@ -186,6 +196,13 @@ def dynamic_weights_score(board, player, opponent):
         score = (player_score + opponent_score) / (abs(player_score) + abs(opponent_score)) * 100
     return score
 
+def all_corners_capture(board):
+    n = board.shape[0]
+    for corner in [(0, 0), (0, n - 1), (n - 1, 0), (n - 1, n - 1)]:
+        if board[corner] == 0:
+            return False
+    return True
+
 def start_game_heuristic(board, player, opponent):
     parity_score = parity(board, player, opponent)
     mobility_score = mobility(board, player, opponent)
@@ -199,10 +216,12 @@ def mid_game_heuristic(board, player, opponent):
     return mobility_score * 20 + corners_score * 20 + board_score + near_corner_penalty  # *10
 
 def end_game_heuristic(board, player, opponent):
+    if all_corners_capture(board):
+        return parity(board, player, opponent)*20
     (corners_score, near_corner_penalty) = corner_capture(board, player, opponent)
     parity_score = parity(board, player, opponent)
     # board_score = dynamic_weights_score(board, player, opponent)
-    return parity_score * 20 + corners_score * 10  # + near_corner_penalty +board_score
+    return parity_score + corners_score * 10  + near_corner_penalty #+board_score
 
 def heuristic(board, player, opponent):
     game_advancement = (np.sum((board == player)) + np.sum((board == opponent))) / board.shape[0] ** 2
@@ -271,6 +290,29 @@ def alpha_beta(board, depth, alpha, beta, maximizing_player, player, opponent, s
                 break  # Alpha cutoff
         return min_eval, best_move
 
+def print_h(board,player,opponent):
+    print("ch mobility")
+    parity_score = parity(board, player, opponent)
+    mobility_score = mobility(board, player, opponent)
+    board_score = dynamic_weights_score(board, player, opponent)
+    (corners_score, near_corner_penalty) = corner_capture(board, player, opponent)
+
+    print("parity_score", parity_score, "board_score", board_score, "mobility_score", mobility_score,
+          "corners_score", corners_score, "near_corner_penalty", near_corner_penalty)
+
+    game_advancement = (np.sum((board == player)) + np.sum((board == opponent))) / board.shape[0] ** 2
+    if game_advancement < 0.25:
+        print("start heuristic: ", heuristic(board, player, opponent))
+    elif game_advancement < 0.8:
+        print("mid_game heuristic", heuristic(board, player, opponent))
+    else:
+        print("end_game heuristic", heuristic(board, player, opponent))
+
+
+    print(
+        "------------------------------------------------------------------------------------------------------------")
+    # 104 - 40
+
 
 @register_agent("student_agent")
 class StudentAgent(Agent):
@@ -283,10 +325,10 @@ class StudentAgent(Agent):
 
         best_value = float('-inf')
         best_move = None
-        depth = [5, 4, 4, 3, 3, 2, 2][board.shape[0] - 6]
+        depth = [5,4,4,3,3,2,2][board.shape[0]-6]
         move_order = []  # Store the best move from previous depths for ordering
         start_time = time.time()
-        # print("step",start_time)
+        #print("step",start_time)
 
         while True:
 
@@ -294,10 +336,9 @@ class StudentAgent(Agent):
                 break
 
             try:
-                # print(time.time() - start_time)
-                # print(start_time)
-                value, move = alpha_beta(board, depth, float('-inf'), float('inf'), True, player, opponent, start_time,
-                                         move_order)
+                #print(time.time() - start_time)
+                #print(start_time)
+                value, move = alpha_beta(board, depth, float('-inf'), float('inf'), True, player, opponent, start_time, move_order)
                 if move is not None:
                     best_move = move
                     best_value = value
@@ -310,28 +351,10 @@ class StudentAgent(Agent):
 
         time_taken = time.time() - start_time
 
-        """print(self.name)
-        parity_score = parity(board, player, opponent)
-        mobility_score = mobility(board, player, opponent)
-        board_score = dynamic_weights_score(board, player, opponent)
-        (corners_score, near_corner_penalty) = corner_capture(board, player, opponent)
-        print("parity_score", parity_score, "board_score", board_score, "mobility_score", mobility_score,
-              "corners_score", corners_score, "near_corner_penalty", near_corner_penalty)
-
-        game_advancement = (np.sum((board == player)) + np.sum((board == opponent))) / board.shape[0] ** 2
-        if game_advancement < 0.3:
-            print("start heuristic: ",heuristic(board, player, opponent))
-        elif game_advancement < 0.65:
-            print("mid_game heuristic",heuristic(board, player, opponent))
-        else:
-            print("end_game heuristic",heuristic(board, player, opponent))
-
-
-        #print(heuristic(board, player, opponent))
-        #print(board)
-        #print(f"Player {player}'s turn took {time_taken:.4f} seconds. For a board of size {board.shape[0]}.")
-        print("BEST MOVE :",best_move,"at depth ",depth-1)
-
-        print("------------------------------------------------------------------------------------------------------------")"""
-        # 104 - 40
+        #print("possible moves", len(get_valid_moves(board, player)))
+        #copyy = deepcopy(board)
+        #execute_move(copyy, best_move, player)
+        #print_h(copyy, player, opponent)
+        #print("BEST MOVE :", best_move, "at depth ", depth - 1)
+        #input()
         return best_move
