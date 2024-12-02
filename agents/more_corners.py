@@ -201,13 +201,13 @@ def mid_game_heuristic(board, player, opponent):
     (corners_score, near_corner_penalty) = corner_capture(board, player, opponent)
     board_score = dynamic_weights_score(board, player, opponent)
     mobility_score = mobility(board, player, opponent)
-    return mobility_score + corners_score*30 + board_score + near_corner_penalty #*10
+    return mobility_score + corners_score*20 + board_score + near_corner_penalty #*10
 
 def end_game_heuristic(board, player, opponent):
     (corners_score, near_corner_penalty) = corner_capture(board, player, opponent)
     parity_score = parity(board, player, opponent)
     board_score = dynamic_weights_score(board, player, opponent)
-    return parity_score + board_score + corners_score*30 + near_corner_penalty
+    return parity_score + board_score + corners_score*20 #+ near_corner_penalty
 
 def heuristic(board, player, opponent):
     game_advancement = (np.sum((board == player))+np.sum((board == opponent)))/board.shape[0]**2

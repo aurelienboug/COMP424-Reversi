@@ -9,63 +9,6 @@ from helpers import random_move, count_capture, execute_move, check_endgame, get
 
 _board_weights = None
 
-#not used
-def stability(board, maximizing_player, player, opponent):
-
-    stability_weights = (1, 0, -1)
-    def is_stable(x, y):
-        if (x, y) in corners:
-            return True
-        for dx, dy in directions:
-            if not (0 <= x + dx < n and 0 <= y + dy < n):
-                continue
-            if board[x + dx, y + dy] != board[x, y] or not stable[x + dx, y + dy]:
-                return False
-        return True
-
-    def is_unstable(x, y):
-        for dx, dy in directions:
-            nx, ny = x + dx, y + dy
-            if n > nx >= 0 == board[nx, ny] and 0 <= ny < n:
-                return True
-        return False
-
-    n = board.shape[0]
-    directions = [(-1, 0), (1, 0), (0, -1), (0, 1), (-1, -1), (-1, 1), (1, -1), (1, 1)]
-    corners = {(0, 0), (0, n - 1), (n - 1, 0), (n - 1, n - 1)}
-    stable = np.zeros_like(board, dtype=bool)
-    stability_values = {player: 0, opponent: 0}
-
-    for x in range(n):
-        for y in range(n):
-            if board[x, y] == 0:
-                continue  # Skip empty spaces
-            player = board[x, y]
-            if (x, y) in corners or is_stable(x, y):
-                stable[x, y] = True
-                stability_values[player] += stability_weights[0]  # Stable weight
-            elif is_unstable(x, y):
-                stability_values[player] += stability_weights[2]  # Unstable weight
-            else:
-                stability_values[player] += stability_weights[1]  # Semi-stable weight
-
-    max_stability = stability_values[player]
-    min_stability = stability_values[opponent]
-
-    score = 0
-    if max_stability + min_stability != 0:
-        score = (max_stability - min_stability) / (max_stability + min_stability) * 100
-
-    return score if maximizing_player else -score
-#not used
-def mobility(board, player, opponent):
-    player_player_mobility = len(get_valid_moves(board, player))
-    opponent_player_mobility = len(get_valid_moves(board, opponent))
-    score = 0
-    if player_player_mobility + opponent_player_mobility != 0:
-        score = (player_player_mobility - opponent_player_mobility) / (
-                    player_player_mobility + opponent_player_mobility) * 100
-    return score
 
 def board_stability(board, player, opponent):
 
@@ -132,49 +75,6 @@ def corner_capture(board, player, opponent):
     if (player_corner_capture + opponent_corner_capture) != 0:
         score = (player_corner_capture-opponent_corner_capture)/(player_corner_capture+opponent_corner_capture) *100
     return score
-#not used
-def board_weights(board_size):
-    global _board_weights
-
-    def static_weights(board_size):
-
-        ratio = 8 + abs(board_size - 8) / 8
-        weights = np.zeros((board_size, board_size))
-        corner_value = 4 * ratio
-        near_corner_penalty = -3 * ratio
-        near_corner_diagonal_penalty = -4 * ratio
-        near_edge_value = -1 * ratio
-        edge_value = 2 * ratio
-        inner_value = 0.5 * ratio
-        middle_four_value = 1 * ratio
-
-        middle_four = [(board_size // 2 - 1, board_size // 2 - 1), (board_size // 2 - 1, board_size // 2),
-                       (board_size // 2, board_size // 2 - 1), (board_size // 2, board_size // 2)]
-        corners = [(0, 0), (0, board_size - 1), (board_size - 1, 0), (board_size - 1, board_size - 1)]
-        near_corners = [(0, 1), (1, 0), (0, board_size - 2), (1, board_size - 1), (board_size - 2, 0),
-                        (board_size - 1, 1), (board_size - 2, board_size - 1), (board_size - 1, board_size - 2)]
-        near_corner_diagonal = [(1, 1), (1, board_size - 2), (board_size - 2, 1), (board_size - 2, board_size - 2)]
-
-        for i in range(board_size):
-            for j in range(board_size):
-                if (i, j) in corners:
-                    weights[i, j] = corner_value
-                elif (i, j) in middle_four:
-                    weights[i, j] = middle_four_value
-                elif i in [0, board_size - 1] or j in [0, board_size - 1]:
-                    weights[i, j] = edge_value if (i, j) not in near_corners else near_corner_penalty
-                elif (i, j) not in near_corner_diagonal and (
-                        i == board_size - 2 or j == board_size - 2 or i == 1 or j == 1):
-                    weights[i, j] = near_edge_value
-                else:
-                    weights[i, j] = inner_value if (i, j) not in near_corner_diagonal else near_corner_diagonal_penalty
-
-        return weights
-
-
-    if _board_weights is None or _board_weights.shape[0] != board_size:
-        _board_weights = static_weights(board_size)
-    return _board_weights
 
 def heuristic(board, player, opponent):
     parity_score = parity(board, player, opponent)

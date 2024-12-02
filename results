@@ -392,3 +392,76 @@ INFO:Player 2, agent time, win percentage: 0.42857142857142855. Maximum turn tim
 INFO:Player 1, agent tdw, win percentage: 0.5714285714285714. Maximum turn time was 910.71261 seconds.
 INFO:Player 2, agent time2, win percentage: 0.42857142857142855. Maximum turn time was 920.95527 seconds.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+INFO:Player 1, agent more_corners, win percentage: 0.875. Maximum turn time was 2.01961 seconds.
+INFO:Player 2, agent board_score, win percentage: 0.125. Maximum turn time was 2.00606 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.75. Maximum turn time was 2.0197 seconds.
+INFO:Player 2, agent c2a, win percentage: 0.25. Maximum turn time was 2.00877 seconds.
+INFO:Player 1, agent more_corners, win percentage: 1.0. Maximum turn time was 2.01628 seconds.
+INFO:Player 2, agent c3a, win percentage: 0.0. Maximum turn time was 0.27323 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.875. Maximum turn time was 2.01559 seconds.
+INFO:Player 2, agent c4a, win percentage: 0.125. Maximum turn time was 1.03638 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.625. Maximum turn time was 2.02123 seconds.
+INFO:Player 2, agent c5a, win percentage: 0.375. Maximum turn time was 2.02204 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.75. Maximum turn time was 2.01449 seconds.
+INFO:Player 2, agent c6a, win percentage: 0.25. Maximum turn time was 2.02152 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.875. Maximum turn time was 2.02038 seconds.
+INFO:Player 2, agent comparor, win percentage: 0.125. Maximum turn time was 0.32545 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.75. Maximum turn time was 2.0106 seconds.
+INFO:Player 2, agent corners, win percentage: 0.25. Maximum turn time was 2.0039 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.6875. Maximum turn time was 2.01539 seconds.
+INFO:Player 2, agent dynamic_weighting, win percentage: 0.3125. Maximum turn time was 2.00734 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.5. Maximum turn time was 2.0149 seconds.
+INFO:Player 2, agent equal, win percentage: 0.5. Maximum turn time was 2.02182 seconds.
+INFO:Player 1, agent more_corners, win percentage: 1.0. Maximum turn time was 2.01482 seconds.
+INFO:Player 2, agent gpt_greedy_corners_agent, win percentage: 0.0. Maximum turn time was 0.01119 seconds.
+INFO:Player 1, agent more_corners, win percentage: 1.0. Maximum turn time was 2.01231 seconds.
+INFO:Player 2, agent min_opp_moves, win percentage: 0.0. Maximum turn time was 0.00417 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.75. Maximum turn time was 2.01244 seconds.
+INFO:Player 2, agent mobility, win percentage: 0.25. Maximum turn time was 2.01252 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.75. Maximum turn time was 2.02014 seconds.
+INFO:Player 2, agent montosh, win percentage: 0.25. Maximum turn time was 1.95844 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.5625. Maximum turn time was 2.01776 seconds.
+INFO:Player 2, agent montosh_boards, win percentage: 0.4375. Maximum turn time was 2.0144 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.25. Maximum turn time was 2.01821 seconds.
+INFO:Player 2, agent montosh_static, win percentage: 0.75. Maximum turn time was 2.01694 seconds.
+INFO:Player 1, agent more_corners, win percentage: 1.0. Maximum turn time was 2.01592 seconds.
+INFO:Player 2, agent normalized, win percentage: 0.0. Maximum turn time was 2.0152 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.875. Maximum turn time was 2.01782 seconds.
+INFO:Player 2, agent parity, win percentage: 0.125. Maximum turn time was 2.00587 seconds.
+INFO:Player 1, agent more_corners, win percentage: 1.0. Maximum turn time was 2.02 seconds.
+INFO:Player 2, agent random_agent, win percentage: 0.0. Maximum turn time was 0.00038 seconds.
+INFO:Player 1, agent more_corners, win percentage: 1.0. Maximum turn time was 2.0225 seconds.
+INFO:Player 2, agent stab2, win percentage: 0.0. Maximum turn time was 2.00761 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.3125. Maximum turn time was 2.0184 seconds.
+INFO:Player 2, agent stab2_equal, win percentage: 0.6875. Maximum turn time was 2.02109 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.75. Maximum turn time was 2.0102 seconds.
+INFO:Player 2, agent stability, win percentage: 0.25. Maximum turn time was 2.00604 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.5. Maximum turn time was 2.01551 seconds.
+INFO:Player 2, agent student_agent, win percentage: 0.5. Maximum turn time was 2.01958 seconds.
+INFO:Player 1, agent more_corners, win percentage: 1.0. Maximum turn time was 2.01573 seconds.
+INFO:Player 2, agent stupid, win percentage: 0.0. Maximum turn time was 2.01452 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.5. Maximum turn time was 2.01616 seconds.
+INFO:Player 2, agent tdw, win percentage: 0.5. Maximum turn time was 2.0189 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.5. Maximum turn time was 2.01711 seconds.
+INFO:Player 2, agent time, win percentage: 0.5. Maximum turn time was 2.01419 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.5. Maximum turn time was 2.01643 seconds.
+INFO:Player 2, agent time2, win percentage: 0.5. Maximum turn time was 2.01158 seconds.
+INFO:Player 1, agent more_corners, win percentage: 0.25. Maximum turn time was 2.01669 seconds.
+INFO:Player 2, agent tstab2, win percentage: 0.75. Maximum turn time was 2.01626 seconds.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ python simulator.py --player_1 student_agent --player_2 changed_mobility --autoplay
+changed_mobility won on boardsize 6.00 with a score of 17.00 to 19.00
+student_agent won on boardsize 6.00 with a score of 29.00 to 7.00
+changed_mobility won on boardsize 8.00 with a score of 31.00 to 33.00
+changed_mobility won on boardsize 8.00 with a score of 8.00 to 56.00
+changed_mobility won on boardsize 10.00 with a score of 34.00 to 66.00
+changed_mobility won on boardsize 10.00 with a score of 34.00 to 66.00
+changed_mobility won on boardsize 12.00 with a score of 68.00 to 76.00
+changed_mobility won on boardsize 12.00 with a score of 52.00 to 92.00
+INFO:Player 1, agent student_agent, win percentage: 0.125. Maximum turn time was 2.01231 seconds.
+INFO:Player 2, agent changed_mobility, win percentage: 0.875. Maximum turn time was 2.01097 seconds.

@@ -32,7 +32,7 @@ def get_args():
     parser.add_argument("--display_save", action="store_true", default=False)
     parser.add_argument("--display_save_path", type=str, default="plots/")
     parser.add_argument("--autoplay", action="store_true", default=False)
-    parser.add_argument("--autoplay_runs", type=int, default=14)
+    parser.add_argument("--autoplay_runs", type=int, default=8)
     parser.add_argument("--info", type=str, default=True)
     args = parser.parse_args()
     return args
@@ -107,7 +107,7 @@ class Simulator:
         with all_logging_disabled():
             for i in range(self.args.autoplay_runs):
                 swap_players = i % 2 == 0
-                board_size = [6,6,7,7,8,8,9,9,10,10,11,11,12,12][i%14]
+                board_size = [6,6,8,8,10,10,12,12][i%8]
                 p0_score, p1_score, p0_time, p1_time = self.run(
                     swap_players=swap_players, board_size=board_size
                 )

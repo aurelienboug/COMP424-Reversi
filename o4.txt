@@ -1,0 +1,785 @@
+c2a won on boardsize 6.00 with a score of 7.00 to 29.00
+changed_mobility won on boardsize 6.00 with a score of 19.00 to 16.00
+changed_mobility won on boardsize 8.00 with a score of 54.00 to 10.00
+c2a won on boardsize 8.00 with a score of 0.00 to 18.00
+changed_mobility won on boardsize 10.00 with a score of 59.00 to 41.00
+changed_mobility won on boardsize 10.00 with a score of 79.00 to 21.00
+changed_mobility won on boardsize 12.00 with a score of 79.00 to 65.00
+changed_mobility won on boardsize 12.00 with a score of 94.00 to 50.00
+changed_mobility won on boardsize 6.00 with a score of 22.00 to 13.00
+c5a won on boardsize 6.00 with a score of 16.00 to 20.00
+changed_mobility won on boardsize 8.00 with a score of 52.00 to 12.00
+changed_mobility won on boardsize 8.00 with a score of 47.00 to 17.00
+changed_mobility won on boardsize 10.00 with a score of 85.00 to 15.00
+changed_mobility won on boardsize 10.00 with a score of 79.00 to 21.00
+c5a won on boardsize 12.00 with a score of 53.00 to 91.00
+changed_mobility won on boardsize 12.00 with a score of 117.00 to 27.00
+changed_mobility won on boardsize 6.00 with a score of 7.00 to 29.00
+changed_mobility won on boardsize 6.00 with a score of 29.00 to 7.00
+changed_mobility won on boardsize 8.00 with a score of 30.00 to 34.00
+changed_mobility won on boardsize 8.00 with a score of 34.00 to 30.00
+changed_mobility won on boardsize 10.00 with a score of 78.00 to 22.00
+changed_mobility won on boardsize 10.00 with a score of 22.00 to 78.00
+changed_mobility won on boardsize 12.00 with a score of 84.00 to 60.00
+changed_mobility won on boardsize 12.00 with a score of 60.00 to 84.00
+changed_mobility won on boardsize 6.00 with a score of 20.00 to 16.00
+changed_mobility won on boardsize 6.00 with a score of 34.00 to 2.00
+changed_mobility won on boardsize 8.00 with a score of 60.00 to 4.00
+equal won on boardsize 8.00 with a score of 26.00 to 38.00
+changed_mobility won on boardsize 10.00 with a score of 85.00 to 15.00
+changed_mobility won on boardsize 10.00 with a score of 68.00 to 32.00
+changed_mobility won on boardsize 12.00 with a score of 108.00 to 36.00
+changed_mobility won on boardsize 12.00 with a score of 121.00 to 23.00
+changed_mobility won on boardsize 6.00 with a score of 35.00 to 1.00
+changed_mobility won on boardsize 6.00 with a score of 35.00 to 1.00
+changed_mobility won on boardsize 8.00 with a score of 59.00 to 3.00
+changed_mobility won on boardsize 8.00 with a score of 57.00 to 0.00
+changed_mobility won on boardsize 10.00 with a score of 96.00 to 4.00
+changed_mobility won on boardsize 10.00 with a score of 98.00 to 0.00
+changed_mobility won on boardsize 12.00 with a score of 128.00 to 16.00
+changed_mobility won on boardsize 12.00 with a score of 135.00 to 7.00
+montosh won on boardsize 6.00 with a score of 8.00 to 28.00
+montosh won on boardsize 6.00 with a score of 15.00 to 21.00
+changed_mobility won on boardsize 8.00 with a score of 35.00 to 29.00
+changed_mobility won on boardsize 8.00 with a score of 58.00 to 6.00
+changed_mobility won on boardsize 10.00 with a score of 90.00 to 1.00
+changed_mobility won on boardsize 10.00 with a score of 82.00 to 18.00
+changed_mobility won on boardsize 12.00 with a score of 92.00 to 52.00
+changed_mobility won on boardsize 12.00 with a score of 116.00 to 28.00
+possible moves 4
+BEST MOVE : (1, 2) at depth  7
+possible moves 5
+BEST MOVE : (4, 3) at depth  7
+possible moves 5
+BEST MOVE : (3, 0) at depth  7
+possible moves 4
+BEST MOVE : (1, 3) at depth  7
+possible moves 5
+BEST MOVE : (2, 5) at depth  7
+possible moves 6
+BEST MOVE : (4, 5) at depth  6
+possible moves 8
+BEST MOVE : (2, 0) at depth  6
+possible moves 7
+BEST MOVE : (0, 4) at depth  7
+possible moves 9
+BEST MOVE : (0, 5) at depth  8
+possible moves 7
+BEST MOVE : (1, 4) at depth  9
+possible moves 5
+BEST MOVE : (0, 1) at depth  9
+possible moves 5
+BEST MOVE : (5, 2) at depth  23
+possible moves 5
+BEST MOVE : (4, 1) at depth  201
+possible moves 3
+BEST MOVE : (4, 4) at depth  1087
+possible moves 2
+BEST MOVE : (5, 0) at depth  5008
+possible moves 2
+BEST MOVE : (5, 4) at depth  13125
+possible moves 1
+BEST MOVE : (1, 0) at depth  26235
+new_end_game won on boardsize 6.00 with a score of 6.00 to 30.00
+possible moves 3
+BEST MOVE : (3, 1) at depth  7
+possible moves 5
+BEST MOVE : (0, 2) at depth  7
+possible moves 5
+BEST MOVE : (2, 4) at depth  6
+possible moves 4
+BEST MOVE : (2, 1) at depth  6
+possible moves 8
+BEST MOVE : (5, 3) at depth  6
+possible moves 6
+BEST MOVE : (2, 0) at depth  7
+possible moves 4
+BEST MOVE : (4, 2) at depth  7
+possible moves 5
+BEST MOVE : (4, 1) at depth  6
+possible moves 4
+BEST MOVE : (4, 0) at depth  9
+possible moves 4
+BEST MOVE : (5, 1) at depth  9
+possible moves 4
+BEST MOVE : (3, 4) at depth  10
+possible moves 3
+BEST MOVE : (5, 5) at depth  133
+possible moves 2
+BEST MOVE : (1, 1) at depth  681
+possible moves 2
+BEST MOVE : (2, 5) at depth  4085
+possible moves 3
+BEST MOVE : (4, 5) at depth  6689
+possible moves 2
+BEST MOVE : (0, 4) at depth  11996
+changed_mobility won on boardsize 6.00 with a score of 26.00 to 10.00
+possible moves 4
+BEST MOVE : (2, 3) at depth  6
+possible moves 4
+BEST MOVE : (2, 1) at depth  6
+possible moves 3
+BEST MOVE : (2, 5) at depth  6
+possible moves 4
+BEST MOVE : (5, 5) at depth  5
+possible moves 6
+BEST MOVE : (0, 4) at depth  5
+possible moves 5
+BEST MOVE : (0, 3) at depth  6
+possible moves 6
+BEST MOVE : (3, 2) at depth  5
+possible moves 8
+BEST MOVE : (5, 6) at depth  5
+possible moves 7
+BEST MOVE : (2, 6) at depth  5
+possible moves 6
+BEST MOVE : (4, 1) at depth  5
+possible moves 6
+BEST MOVE : (3, 6) at depth  5
+possible moves 8
+BEST MOVE : (4, 7) at depth  5
+possible moves 5
+BEST MOVE : (1, 2) at depth  5
+possible moves 7
+BEST MOVE : (4, 0) at depth  5
+possible moves 5
+BEST MOVE : (1, 0) at depth  6
+possible moves 3
+BEST MOVE : (4, 2) at depth  6
+possible moves 3
+BEST MOVE : (0, 6) at depth  7
+possible moves 2
+BEST MOVE : (1, 6) at depth  7
+possible moves 4
+BEST MOVE : (5, 3) at depth  7
+possible moves 4
+BEST MOVE : (6, 2) at depth  7
+possible moves 4
+BEST MOVE : (6, 3) at depth  7
+possible moves 2
+BEST MOVE : (6, 1) at depth  7
+possible moves 1
+BEST MOVE : (5, 4) at depth  8
+possible moves 2
+BEST MOVE : (6, 0) at depth  9
+possible moves 1
+BEST MOVE : (7, 2) at depth  17
+possible moves 1
+BEST MOVE : (6, 4) at depth  107
+possible moves 1
+BEST MOVE : (6, 6) at depth  599
+possible moves 1
+BEST MOVE : (7, 6) at depth  2755
+possible moves 2
+BEST MOVE : (6, 5) at depth  7712
+changed_mobility won on boardsize 8.00 with a score of 57.00 to 7.00
+possible moves 3
+BEST MOVE : (2, 2) at depth  7
+possible moves 6
+BEST MOVE : (2, 4) at depth  6
+possible moves 7
+BEST MOVE : (1, 4) at depth  6
+possible moves 9
+BEST MOVE : (2, 0) at depth  6
+possible moves 5
+BEST MOVE : (0, 5) at depth  6
+possible moves 5
+BEST MOVE : (0, 2) at depth  6
+possible moves 5
+BEST MOVE : (3, 2) at depth  6
+possible moves 7
+BEST MOVE : (5, 3) at depth  5
+possible moves 9
+BEST MOVE : (3, 6) at depth  5
+possible moves 10
+BEST MOVE : (4, 5) at depth  5
+possible moves 9
+BEST MOVE : (3, 5) at depth  5
+possible moves 7
+BEST MOVE : (2, 7) at depth  5
+possible moves 8
+BEST MOVE : (3, 7) at depth  5
+possible moves 11
+BEST MOVE : (3, 0) at depth  5
+possible moves 11
+BEST MOVE : (4, 1) at depth  5
+possible moves 12
+BEST MOVE : (5, 7) at depth  5
+possible moves 11
+BEST MOVE : (5, 0) at depth  6
+possible moves 11
+BEST MOVE : (4, 6) at depth  6
+possible moves 11
+BEST MOVE : (0, 0) at depth  6
+possible moves 9
+BEST MOVE : (1, 0) at depth  7
+possible moves 10
+BEST MOVE : (0, 7) at depth  8
+possible moves 9
+BEST MOVE : (0, 6) at depth  8
+possible moves 8
+BEST MOVE : (6, 1) at depth  8
+possible moves 9
+BEST MOVE : (6, 0) at depth  8
+possible moves 9
+BEST MOVE : (7, 0) at depth  10
+possible moves 8
+BEST MOVE : (6, 2) at depth  12
+possible moves 7
+BEST MOVE : (7, 5) at depth  45
+possible moves 5
+BEST MOVE : (7, 4) at depth  373
+possible moves 4
+BEST MOVE : (6, 5) at depth  1341
+possible moves 3
+BEST MOVE : (7, 2) at depth  4027
+possible moves 2
+BEST MOVE : (6, 6) at depth  6685
+possible moves 1
+BEST MOVE : (7, 7) at depth  14495
+new_end_game won on boardsize 8.00 with a score of 6.00 to 58.00
+possible moves 4
+BEST MOVE : (3, 4) at depth  6
+possible moves 5
+BEST MOVE : (6, 5) at depth  5
+possible moves 5
+BEST MOVE : (5, 2) at depth  6
+possible moves 5
+BEST MOVE : (7, 2) at depth  6
+possible moves 4
+BEST MOVE : (3, 5) at depth  5
+possible moves 9
+BEST MOVE : (7, 5) at depth  5
+possible moves 13
+BEST MOVE : (3, 7) at depth  4
+possible moves 11
+BEST MOVE : (5, 7) at depth  4
+possible moves 11
+BEST MOVE : (6, 6) at depth  4
+possible moves 11
+BEST MOVE : (2, 6) at depth  4
+possible moves 11
+BEST MOVE : (2, 8) at depth  4
+possible moves 11
+BEST MOVE : (7, 7) at depth  4
+possible moves 12
+BEST MOVE : (6, 4) at depth  4
+possible moves 14
+BEST MOVE : (4, 3) at depth  4
+possible moves 15
+BEST MOVE : (2, 3) at depth  3
+possible moves 13
+BEST MOVE : (1, 3) at depth  4
+possible moves 14
+BEST MOVE : (3, 3) at depth  4
+possible moves 14
+BEST MOVE : (0, 5) at depth  4
+possible moves 12
+BEST MOVE : (1, 5) at depth  4
+possible moves 14
+BEST MOVE : (3, 9) at depth  4
+possible moves 13
+BEST MOVE : (4, 8) at depth  4
+possible moves 12
+BEST MOVE : (1, 6) at depth  4
+possible moves 15
+BEST MOVE : (0, 3) at depth  4
+possible moves 14
+BEST MOVE : (0, 6) at depth  4
+possible moves 11
+BEST MOVE : (8, 7) at depth  4
+possible moves 12
+BEST MOVE : (9, 6) at depth  4
+possible moves 10
+BEST MOVE : (8, 5) at depth  4
+possible moves 10
+BEST MOVE : (9, 4) at depth  4
+possible moves 8
+BEST MOVE : (7, 8) at depth  4
+possible moves 6
+BEST MOVE : (6, 9) at depth  4
+possible moves 8
+BEST MOVE : (8, 3) at depth  4
+possible moves 8
+BEST MOVE : (9, 8) at depth  4
+possible moves 9
+BEST MOVE : (8, 2) at depth  4
+possible moves 8
+BEST MOVE : (4, 2) at depth  4
+possible moves 10
+BEST MOVE : (3, 2) at depth  4
+possible moves 11
+BEST MOVE : (9, 1) at depth  4
+possible moves 11
+BEST MOVE : (4, 1) at depth  5
+possible moves 9
+BEST MOVE : (3, 0) at depth  6
+possible moves 7
+BEST MOVE : (5, 1) at depth  6
+possible moves 8
+BEST MOVE : (4, 0) at depth  6
+possible moves 10
+BEST MOVE : (8, 8) at depth  5
+possible moves 11
+BEST MOVE : (8, 9) at depth  6
+possible moves 9
+BEST MOVE : (8, 1) at depth  6
+possible moves 8
+BEST MOVE : (1, 1) at depth  10
+possible moves 7
+BEST MOVE : (0, 8) at depth  56
+possible moves 5
+BEST MOVE : (0, 1) at depth  295
+possible moves 4
+BEST MOVE : (8, 0) at depth  1744
+possible moves 2
+BEST MOVE : (1, 9) at depth  5661
+possible moves 1
+BEST MOVE : (1, 0) at depth  10935
+changed_mobility won on boardsize 10.00 with a score of 54.00 to 46.00
+possible moves 3
+BEST MOVE : (5, 3) at depth  6
+possible moves 5
+BEST MOVE : (2, 4) at depth  6
+possible moves 5
+BEST MOVE : (6, 2) at depth  5
+possible moves 6
+BEST MOVE : (6, 6) at depth  4
+possible moves 8
+BEST MOVE : (7, 7) at depth  4
+possible moves 9
+BEST MOVE : (7, 1) at depth  4
+possible moves 11
+BEST MOVE : (5, 6) at depth  4
+possible moves 12
+BEST MOVE : (2, 2) at depth  4
+possible moves 11
+BEST MOVE : (4, 2) at depth  4
+possible moves 8
+BEST MOVE : (4, 3) at depth  4
+possible moves 10
+BEST MOVE : (5, 1) at depth  4
+possible moves 12
+BEST MOVE : (4, 1) at depth  4
+possible moves 11
+BEST MOVE : (3, 1) at depth  4
+possible moves 11
+BEST MOVE : (3, 5) at depth  4
+possible moves 11
+BEST MOVE : (3, 0) at depth  4
+possible moves 12
+BEST MOVE : (1, 2) at depth  4
+possible moves 15
+BEST MOVE : (6, 4) at depth  4
+possible moves 17
+BEST MOVE : (3, 6) at depth  4
+possible moves 14
+BEST MOVE : (5, 7) at depth  4
+possible moves 15
+BEST MOVE : (7, 3) at depth  4
+possible moves 17
+BEST MOVE : (0, 3) at depth  4
+possible moves 16
+BEST MOVE : (1, 4) at depth  4
+possible moves 17
+BEST MOVE : (1, 5) at depth  4
+possible moves 12
+BEST MOVE : (2, 5) at depth  4
+possible moves 13
+BEST MOVE : (5, 0) at depth  4
+possible moves 14
+BEST MOVE : (1, 6) at depth  5
+possible moves 14
+BEST MOVE : (2, 6) at depth  4
+possible moves 15
+BEST MOVE : (3, 7) at depth  4
+possible moves 12
+BEST MOVE : (3, 8) at depth  4
+possible moves 11
+BEST MOVE : (4, 8) at depth  5
+possible moves 15
+BEST MOVE : (5, 8) at depth  4
+possible moves 14
+BEST MOVE : (2, 9) at depth  5
+possible moves 12
+BEST MOVE : (6, 9) at depth  5
+possible moves 11
+BEST MOVE : (9, 7) at depth  5
+possible moves 12
+BEST MOVE : (7, 9) at depth  5
+possible moves 12
+BEST MOVE : (8, 9) at depth  5
+possible moves 10
+BEST MOVE : (9, 6) at depth  5
+possible moves 12
+BEST MOVE : (9, 9) at depth  5
+possible moves 10
+BEST MOVE : (9, 4) at depth  6
+possible moves 10
+BEST MOVE : (9, 5) at depth  6
+possible moves 9
+BEST MOVE : (8, 2) at depth  6
+possible moves 9
+BEST MOVE : (9, 3) at depth  8
+possible moves 7
+BEST MOVE : (9, 1) at depth  10
+possible moves 7
+BEST MOVE : (1, 9) at depth  11
+possible moves 6
+BEST MOVE : (0, 9) at depth  43
+possible moves 5
+BEST MOVE : (9, 0) at depth  349
+possible moves 3
+BEST MOVE : (0, 8) at depth  1759
+possible moves 3
+BEST MOVE : (1, 0) at depth  2296
+possible moves 1
+BEST MOVE : (0, 0) at depth  10344
+new_end_game won on boardsize 10.00 with a score of 30.00 to 70.00
+possible moves 4
+BEST MOVE : (4, 5) at depth  6
+possible moves 5
+BEST MOVE : (7, 6) at depth  5
+possible moves 5
+BEST MOVE : (6, 3) at depth  5
+possible moves 5
+BEST MOVE : (2, 5) at depth  5
+possible moves 2
+BEST MOVE : (8, 2) at depth  6
+possible moves 1
+BEST MOVE : (6, 1) at depth  7
+possible moves 3
+BEST MOVE : (9, 5) at depth  5
+possible moves 2
+BEST MOVE : (4, 4) at depth  5
+possible moves 1
+BEST MOVE : (4, 2) at depth  5
+possible moves 2
+BEST MOVE : (2, 2) at depth  5
+possible moves 3
+BEST MOVE : (5, 1) at depth  5
+possible moves 4
+BEST MOVE : (1, 7) at depth  5
+possible moves 5
+BEST MOVE : (8, 6) at depth  5
+possible moves 4
+BEST MOVE : (10, 2) at depth  5
+possible moves 1
+BEST MOVE : (7, 1) at depth  5
+possible moves 1
+BEST MOVE : (3, 1) at depth  5
+possible moves 2
+BEST MOVE : (1, 3) at depth  5
+possible moves 2
+BEST MOVE : (2, 3) at depth  5
+possible moves 4
+BEST MOVE : (8, 1) at depth  5
+possible moves 4
+BEST MOVE : (10, 0) at depth  5
+possible moves 4
+BEST MOVE : (2, 1) at depth  5
+possible moves 4
+BEST MOVE : (0, 5) at depth  5
+possible moves 4
+BEST MOVE : (10, 4) at depth  5
+possible moves 4
+BEST MOVE : (8, 0) at depth  5
+possible moves 5
+BEST MOVE : (2, 8) at depth  5
+possible moves 4
+BEST MOVE : (0, 7) at depth  5
+possible moves 5
+BEST MOVE : (4, 7) at depth  5
+possible moves 4
+BEST MOVE : (0, 9) at depth  5
+possible moves 6
+BEST MOVE : (0, 4) at depth  4
+possible moves 5
+BEST MOVE : (2, 9) at depth  5
+possible moves 3
+BEST MOVE : (4, 9) at depth  5
+possible moves 2
+BEST MOVE : (10, 5) at depth  5
+possible moves 2
+BEST MOVE : (1, 9) at depth  5
+possible moves 2
+BEST MOVE : (6, 9) at depth  5
+possible moves 2
+BEST MOVE : (5, 11) at depth  5
+possible moves 2
+BEST MOVE : (8, 9) at depth  5
+possible moves 1
+BEST MOVE : (2, 10) at depth  5
+possible moves 2
+BEST MOVE : (4, 11) at depth  5
+possible moves 4
+BEST MOVE : (6, 10) at depth  5
+possible moves 4
+BEST MOVE : (6, 7) at depth  5
+possible moves 3
+BEST MOVE : (8, 10) at depth  5
+possible moves 4
+BEST MOVE : (8, 7) at depth  5
+possible moves 4
+BEST MOVE : (10, 7) at depth  5
+possible moves 3
+BEST MOVE : (10, 9) at depth  5
+possible moves 2
+BEST MOVE : (9, 11) at depth  5
+possible moves 2
+BEST MOVE : (10, 8) at depth  5
+possible moves 2
+BEST MOVE : (10, 10) at depth  5
+possible moves 1
+BEST MOVE : (1, 11) at depth  6
+possible moves 1
+BEST MOVE : (7, 5) at depth  6
+possible moves 5
+BEST MOVE : (7, 4) at depth  5
+possible moves 9
+BEST MOVE : (9, 2) at depth  5
+possible moves 9
+BEST MOVE : (9, 4) at depth  5
+possible moves 12
+BEST MOVE : (11, 2) at depth  5
+possible moves 12
+BEST MOVE : (11, 0) at depth  5
+possible moves 12
+BEST MOVE : (11, 4) at depth  6
+possible moves 13
+BEST MOVE : (7, 2) at depth  5
+possible moves 11
+BEST MOVE : (7, 8) at depth  6
+possible moves 14
+BEST MOVE : (5, 0) at depth  6
+possible moves 12
+BEST MOVE : (5, 8) at depth  6
+possible moves 12
+BEST MOVE : (0, 0) at depth  6
+possible moves 12
+BEST MOVE : (11, 8) at depth  6
+possible moves 11
+BEST MOVE : (3, 0) at depth  6
+possible moves 10
+BEST MOVE : (1, 4) at depth  7
+possible moves 8
+BEST MOVE : (3, 6) at depth  9
+possible moves 7
+BEST MOVE : (11, 10) at depth  19
+possible moves 7
+BEST MOVE : (5, 10) at depth  102
+possible moves 5
+BEST MOVE : (9, 10) at depth  627
+possible moves 3
+BEST MOVE : (1, 10) at depth  2436
+possible moves 1
+BEST MOVE : (1, 0) at depth  7436
+new_end_game won on boardsize 12.00 with a score of 59.00 to 85.00
+possible moves 3
+BEST MOVE : (6, 4) at depth  6
+possible moves 5
+BEST MOVE : (3, 5) at depth  5
+possible moves 5
+BEST MOVE : (7, 3) at depth  5
+possible moves 4
+BEST MOVE : (6, 2) at depth  6
+possible moves 3
+BEST MOVE : (8, 4) at depth  6
+possible moves 4
+BEST MOVE : (5, 3) at depth  6
+possible moves 5
+BEST MOVE : (8, 3) at depth  6
+possible moves 9
+BEST MOVE : (4, 3) at depth  6
+possible moves 9
+BEST MOVE : (3, 3) at depth  5
+possible moves 14
+BEST MOVE : (6, 0) at depth  4
+possible moves 11
+BEST MOVE : (2, 6) at depth  4
+possible moves 7
+BEST MOVE : (8, 5) at depth  5
+possible moves 6
+BEST MOVE : (9, 3) at depth  6
+possible moves 11
+BEST MOVE : (4, 0) at depth  5
+possible moves 11
+BEST MOVE : (4, 1) at depth  5
+possible moves 11
+BEST MOVE : (2, 4) at depth  5
+possible moves 15
+BEST MOVE : (2, 0) at depth  4
+possible moves 12
+BEST MOVE : (1, 5) at depth  4
+possible moves 16
+BEST MOVE : (0, 2) at depth  4
+possible moves 13
+BEST MOVE : (2, 7) at depth  4
+possible moves 13
+BEST MOVE : (10, 3) at depth  4
+possible moves 14
+BEST MOVE : (0, 3) at depth  4
+possible moves 10
+BEST MOVE : (0, 6) at depth  5
+possible moves 11
+BEST MOVE : (3, 7) at depth  5
+possible moves 13
+BEST MOVE : (8, 0) at depth  4
+possible moves 13
+BEST MOVE : (10, 4) at depth  4
+possible moves 14
+BEST MOVE : (11, 5) at depth  4
+possible moves 13
+BEST MOVE : (2, 9) at depth  5
+possible moves 13
+BEST MOVE : (2, 11) at depth  5
+possible moves 15
+BEST MOVE : (4, 9) at depth  4
+possible moves 15
+BEST MOVE : (4, 8) at depth  4
+possible moves 13
+BEST MOVE : (0, 7) at depth  4
+possible moves 13
+BEST MOVE : (6, 10) at depth  4
+possible moves 14
+BEST MOVE : (6, 9) at depth  4
+possible moves 16
+BEST MOVE : (7, 9) at depth  4
+possible moves 16
+BEST MOVE : (8, 9) at depth  4
+possible moves 16
+BEST MOVE : (9, 9) at depth  4
+possible moves 19
+BEST MOVE : (10, 9) at depth  4
+possible moves 19
+BEST MOVE : (7, 7) at depth  4
+possible moves 19
+BEST MOVE : (11, 9) at depth  4
+possible moves 19
+BEST MOVE : (11, 7) at depth  4
+possible moves 16
+BEST MOVE : (11, 11) at depth  4
+possible moves 15
+BEST MOVE : (9, 11) at depth  4
+possible moves 13
+BEST MOVE : (9, 7) at depth  4
+possible moves 11
+BEST MOVE : (7, 11) at depth  4
+possible moves 9
+BEST MOVE : (3, 11) at depth  5
+possible moves 7
+BEST MOVE : (1, 9) at depth  5
+possible moves 8
+BEST MOVE : (0, 8) at depth  6
+possible moves 6
+BEST MOVE : (7, 5) at depth  5
+possible moves 8
+BEST MOVE : (7, 8) at depth  4
+possible moves 8
+BEST MOVE : (5, 2) at depth  4
+possible moves 6
+BEST MOVE : (5, 10) at depth  4
+possible moves 6
+BEST MOVE : (11, 2) at depth  5
+possible moves 7
+BEST MOVE : (9, 4) at depth  5
+possible moves 9
+BEST MOVE : (7, 2) at depth  4
+possible moves 9
+BEST MOVE : (5, 8) at depth  4
+possible moves 13
+BEST MOVE : (11, 6) at depth  4
+possible moves 11
+BEST MOVE : (3, 2) at depth  4
+possible moves 13
+BEST MOVE : (3, 8) at depth  5
+possible moves 15
+BEST MOVE : (3, 6) at depth  4
+possible moves 12
+BEST MOVE : (11, 8) at depth  5
+possible moves 12
+BEST MOVE : (9, 8) at depth  5
+possible moves 12
+BEST MOVE : (7, 10) at depth  6
+possible moves 10
+BEST MOVE : (9, 0) at depth  7
+possible moves 9
+BEST MOVE : (11, 10) at depth  7
+possible moves 7
+BEST MOVE : (11, 0) at depth  10
+possible moves 5
+BEST MOVE : (10, 0) at depth  104
+possible moves 4
+BEST MOVE : (0, 0) at depth  348
+possible moves 4
+BEST MOVE : (1, 1) at depth  1438
+possible moves 3
+BEST MOVE : (3, 10) at depth  2278
+possible moves 2
+BEST MOVE : (0, 11) at depth  3651
+possible moves 1
+BEST MOVE : (1, 10) at depth  7049
+new_end_game won on boardsize 12.00 with a score of 31.00 to 113.00
+changed_mobility won on boardsize 6.00 with a score of 33.00 to 3.00
+changed_mobility won on boardsize 6.00 with a score of 32.00 to 4.00
+changed_mobility won on boardsize 8.00 with a score of 61.00 to 1.00
+changed_mobility won on boardsize 8.00 with a score of 61.00 to 3.00
+changed_mobility won on boardsize 10.00 with a score of 71.00 to 29.00
+changed_mobility won on boardsize 10.00 with a score of 95.00 to 3.00
+changed_mobility won on boardsize 12.00 with a score of 134.00 to 10.00
+changed_mobility won on boardsize 12.00 with a score of 122.00 to 22.00
+changed_mobility won on boardsize 6.00 with a score of 30.00 to 6.00
+changed_mobility won on boardsize 6.00 with a score of 24.00 to 12.00
+changed_mobility won on boardsize 8.00 with a score of 61.00 to 0.00
+changed_mobility won on boardsize 8.00 with a score of 48.00 to 16.00
+changed_mobility won on boardsize 10.00 with a score of 99.00 to 0.00
+changed_mobility won on boardsize 10.00 with a score of 83.00 to 17.00
+changed_mobility won on boardsize 12.00 with a score of 79.00 to 65.00
+changed_mobility won on boardsize 12.00 with a score of 125.00 to 19.00
+changed_mobility won on boardsize 6.00 with a score of 24.00 to 12.00
+changed_mobility won on boardsize 8.00 with a score of 61.00 to 3.00
+changed_mobility won on boardsize 8.00 with a score of 42.00 to 22.00
+changed_mobility won on boardsize 10.00 with a score of 61.00 to 39.00
+changed_mobility won on boardsize 10.00 with a score of 70.00 to 30.00
+changed_mobility won on boardsize 12.00 with a score of 87.00 to 57.00
+stab2_equal won on boardsize 12.00 with a score of 0.00 to 20.00
+changed_mobility won on boardsize 6.00 with a score of 32.00 to 1.00
+changed_mobility won on boardsize 6.00 with a score of 32.00 to 4.00
+changed_mobility won on boardsize 8.00 with a score of 39.00 to 25.00
+changed_mobility won on boardsize 8.00 with a score of 48.00 to 16.00
+changed_mobility won on boardsize 10.00 with a score of 58.00 to 42.00
+changed_mobility won on boardsize 10.00 with a score of 27.00 to 0.00
+changed_mobility won on boardsize 12.00 with a score of 32.00 to 0.00
+changed_mobility won on boardsize 12.00 with a score of 105.00 to 39.00
+tdw won on boardsize 6.00 with a score of 12.00 to 24.00
+changed_mobility won on boardsize 6.00 with a score of 24.00 to 12.00
+tdw won on boardsize 8.00 with a score of 30.00 to 34.00
+changed_mobility won on boardsize 8.00 with a score of 54.00 to 10.00
+changed_mobility won on boardsize 10.00 with a score of 56.00 to 44.00
+changed_mobility won on boardsize 10.00 with a score of 61.00 to 39.00
+tdw won on boardsize 12.00 with a score of 46.00 to 98.00
+changed_mobility won on boardsize 12.00 with a score of 111.00 to 33.00
+changed_mobility won on boardsize 6.00 with a score of 25.00 to 11.00
+changed_mobility won on boardsize 6.00 with a score of 25.00 to 10.00
+changed_mobility won on boardsize 8.00 with a score of 34.00 to 30.00
+changed_mobility won on boardsize 8.00 with a score of 35.00 to 29.00
+changed_mobility won on boardsize 10.00 with a score of 55.00 to 45.00
+changed_mobility won on boardsize 10.00 with a score of 65.00 to 35.00
+time won on boardsize 12.00 with a score of 69.00 to 75.00
+changed_mobility won on boardsize 12.00 with a score of 89.00 to 55.00
+changed_mobility won on boardsize 6.00 with a score of 23.00 to 13.00
+changed_mobility won on boardsize 6.00 with a score of 31.00 to 5.00
+changed_mobility won on boardsize 8.00 with a score of 33.00 to 31.00
+time2 won on boardsize 8.00 with a score of 31.00 to 33.00
+changed_mobility won on boardsize 10.00 with a score of 88.00 to 12.00
+changed_mobility won on boardsize 10.00 with a score of 83.00 to 17.00
+changed_mobility won on boardsize 12.00 with a score of 96.00 to 48.00
+changed_mobility won on boardsize 12.00 with a score of 31.00 to 0.00
+changed_mobility won on boardsize 6.00 with a score of 25.00 to 11.00
+changed_mobility won on boardsize 6.00 with a score of 23.00 to 13.00
+changed_mobility won on boardsize 8.00 with a score of 49.00 to 15.00
+changed_mobility won on boardsize 8.00 with a score of 33.00 to 31.00
+changed_mobility won on boardsize 10.00 with a score of 60.00 to 40.00
+changed_mobility won on boardsize 10.00 with a score of 69.00 to 31.00
+changed_mobility won on boardsize 12.00 with a score of 89.00 to 55.00
+changed_mobility won on boardsize 12.00 with a score of 79.00 to 65.00

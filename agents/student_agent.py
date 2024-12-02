@@ -1,4 +1,3 @@
-# Student agent: Add your own agent here
 from agents.agent import Agent
 from store import register_agent
 import sys
@@ -7,21 +6,22 @@ from copy import deepcopy
 import time
 from helpers import random_move, count_capture, execute_move, check_endgame, get_valid_moves
 
-_board_weights = None
+TIME_LIMIT = 2
+
+
+def ratio(num1, num2):
+    result = 0
+    if num1 + num2 != 0:
+        result = (num1 - num2) / (num1 + num2)
+    return result * 100
 
 def mobility(board, player, opponent):
-    player_player_mobility = len(get_valid_moves(board, player))
-    opponent_player_mobility = len(get_valid_moves(board, opponent))
-    score = 0
-    if player_player_mobility + opponent_player_mobility != 0:
-        score = (player_player_mobility - opponent_player_mobility) / (
-                    player_player_mobility + opponent_player_mobility) * 100
-    return score
+    return -len(get_valid_moves(board, opponent))
 
 def parity(board, player, opponent):
     player_score = np.sum(board == player)
     opponent_score = np.sum(board == opponent)
-    return (player_score - opponent_score) / (player_score + opponent_score) *100
+    return ratio(player_score, opponent_score)
 
 def corner_capture(board, player, opponent):
     player_corner_capture = 0
@@ -35,21 +35,15 @@ def corner_capture(board, player, opponent):
                 player_corner_capture += 1
             else:
                 opponent_corner_capture += 1
-        else :
+        else:
             for d in [(-1, 0), (1, 0), (0, -1), (0, 1), (-1, -1), (-1, 1), (1, -1), (1, 1)]:
-                if 0 <= corner[0] + d[0] < board_size and 0 <= corner[1] + d[1] < board_size :
-                    if board[(corner[0] + d[0],corner[1] + d[1])] == player:
+                if 0 <= corner[0] + d[0] < board_size and 0 <= corner[1] + d[1] < board_size:
+                    if board[(corner[0] + d[0], corner[1] + d[1])] == player:
                         near_corner_player += 1
-                    if board[(corner[0] + d[0],corner[1] + d[1])] == opponent:
+                    if board[(corner[0] + d[0], corner[1] + d[1])] == opponent:
                         near_corner_opponent += 1
 
-    corner_score = 0
-    near_corner_score = 0
-    if (player_corner_capture + opponent_corner_capture) != 0:
-        corner_score = (player_corner_capture-opponent_corner_capture)/(player_corner_capture+opponent_corner_capture) *100
-    if (near_corner_player + near_corner_opponent) != 0:
-        near_corner_score = (near_corner_opponent-near_corner_player)/(near_corner_opponent+near_corner_player) *100
-    return (corner_score,near_corner_score)
+    return ratio(player_corner_capture, opponent_corner_capture), ratio(near_corner_opponent, near_corner_player)
 
 def calculate_stability(board, player, opponent):
     """
@@ -139,86 +133,87 @@ def calculate_stability(board, player, opponent):
     return stability_board
 
 def board_weights(board_size):
-
-    global _board_weights
-
-    def static_weights(board_size):
-
-        ratio = 1 #abs(board_size - 8) / 8
-        weights = np.zeros((board_size, board_size))
-        corner_value = 5 * ratio
-        near_corner_penalty = -3 * ratio
-        near_corner_diagonal_penalty = -4 * ratio
-        near_edge_value = -1 * ratio
-        edge_value = 2 * ratio
-        inner_value = 0.5 * ratio
-        middle_four_value = 1 * ratio
-
-        middle_four = [(board_size // 2 - 1, board_size // 2 - 1), (board_size // 2 - 1, board_size // 2),
-                       (board_size // 2, board_size // 2 - 1), (board_size // 2, board_size // 2)]
-        corners = [(0, 0), (0, board_size - 1), (board_size - 1, 0), (board_size - 1, board_size - 1)]
-        near_corners = [(0, 1), (1, 0), (0, board_size - 2), (1, board_size - 1), (board_size - 2, 0),
-                        (board_size - 1, 1), (board_size - 2, board_size - 1), (board_size - 1, board_size - 2)]
-        near_corner_diagonal = [(1, 1), (1, board_size - 2), (board_size - 2, 1), (board_size - 2, board_size - 2)]
-
-        for i in range(board_size):
-            for j in range(board_size):
-                if (i, j) in corners:
-                    weights[i, j] = corner_value
-                elif (i, j) in middle_four:
-                    weights[i, j] = middle_four_value
-                elif i in [0, board_size - 1] or j in [0, board_size - 1]:
-                    weights[i, j] = edge_value if (i, j) not in near_corners else near_corner_penalty
-                elif (i, j) not in near_corner_diagonal and (
-                        i == board_size - 2 or j == board_size - 2 or i == 1 or j == 1):
-                    weights[i, j] = near_edge_value
-                else:
-                    weights[i, j] = inner_value if (i,
-                                                    j) not in near_corner_diagonal else near_corner_diagonal_penalty
-
-        return weights
-
-    if _board_weights is None or _board_weights.shape[0] != board_size:
-        _board_weights = static_weights(board_size)
-    return _board_weights
+    boards = [
+        np.array([
+            [100, -20, 10, 10, -20, 100],
+            [-20, -50, 5, 5, -50, -20],
+            [10, 5, 1, 1, 5, 10],
+            [10, 5, 1, 1, 5, 10],
+            [-20, -50, 5, 5, -50, -20],
+            [100, -20, 10, 10, -20, 100]]),
+        np.array([
+            [100, -20, 10, 5, 5, 10, -20, 100],
+            [-20, -50, -2, -2, -2, -2, -50, -20],
+            [10, -2, 1, 1, 1, 1, -2, 10],
+            [5, -2, 1, 0, 0, 1, -2, 5],
+            [5, -2, 1, 0, 0, 1, -2, 5],
+            [10, -2, 1, 1, 1, 1, -2, 10],
+            [-20, -50, -2, -2, -2, -2, -50, -20],
+            [100, -20, 10, 5, 5, 10, -20, 100]]),
+        np.array([
+            [100, -20, 10, 5, 5, 5, 5, 10, -20, 100],
+            [-20, -50, -2, -2, -2, -2, -2, -2, -50, -20],
+            [10, -2, 1, 1, 1, 1, 1, 1, -2, 10],
+            [5, -2, 1, 0, 0, 0, 0, 1, -2, 5],
+            [5, -2, 1, 0, 0, 0, 0, 1, -2, 5],
+            [5, -2, 1, 0, 0, 0, 0, 1, -2, 5],
+            [5, -2, 1, 0, 0, 0, 0, 1, -2, 5],
+            [10, -2, 1, 1, 1, 1, 1, 1, -2, 10],
+            [-20, -50, -2, -2, -2, -2, -2, -2, -50, -20],
+            [100, -20, 10, 5, 5, 5, 5, 10, -20, 100]]),
+        np.array([
+            [100, -20, 10, 5, 5, 5, 5, 5, 5, 10, -20, 100],
+            [-20, -50, -2, -2, -2, -2, -2, -2, -2, -2, -50, -20],
+            [10, -2, 1, 1, 1, 1, 1, 1, 1, 1, -2, 10],
+            [5, -2, 1, 0, 0, 0, 0, 0, 0, 1, -2, 5],
+            [5, -2, 1, 0, 0, 0, 0, 0, 0, 1, -2, 5],
+            [5, -2, 1, 0, 0, 0, 0, 0, 0, 1, -2, 5],
+            [5, -2, 1, 0, 0, 0, 0, 0, 0, 1, -2, 5],
+            [5, -2, 1, 0, 0, 0, 0, 0, 0, 1, -2, 5],
+            [10, -2, 1, 1, 1, 1, 1, 1, 1, 1, -2, 10],
+            [-20, -50, -2, -2, -2, -2, -2, -2, -2, -2, -50, -20],
+            [100, -20, 10, 5, 5, 5, 5, 5, 5, 10, -20, 100],
+            [100, -20, 10, 5, 5, 5, 5, 5, 5, 10, -20, 100]])
+    ]
+    return boards[(board_size - 6) // 2]
 
 def dynamic_weights_score(board, player, opponent):
-    dw_board = board_weights(board.shape[0])*calculate_stability(board,player,opponent)
+    dw_board = board_weights(board.shape[0]) * calculate_stability(board, player, opponent)
     player_score = np.sum((board == player) * dw_board)
     opponent_score = np.sum((board == opponent) * dw_board)
     score = 0
-    if (player_score!=0 and opponent_score!=0):
-        score = (player_score + opponent_score) / (abs(player_score)+abs(opponent_score)) *100
+    if (player_score != 0 and opponent_score != 0):
+        score = (player_score + opponent_score) / (abs(player_score) + abs(opponent_score)) * 100
     return score
 
-def start_game_heuristic(board, player,opponent):
+def start_game_heuristic(board, player, opponent):
     parity_score = parity(board, player, opponent)
     mobility_score = mobility(board, player, opponent)
     board_score = dynamic_weights_score(board, player, opponent)
-    return mobility_score + board_score + parity_score
+    return mobility_score * 20 + board_score + parity_score
 
 def mid_game_heuristic(board, player, opponent):
     (corners_score, near_corner_penalty) = corner_capture(board, player, opponent)
     board_score = dynamic_weights_score(board, player, opponent)
     mobility_score = mobility(board, player, opponent)
-    return mobility_score + corners_score + board_score + near_corner_penalty #*10
+    return mobility_score * 20 + corners_score * 20 + board_score + near_corner_penalty  # *10
 
 def end_game_heuristic(board, player, opponent):
     (corners_score, near_corner_penalty) = corner_capture(board, player, opponent)
     parity_score = parity(board, player, opponent)
-    board_score = dynamic_weights_score(board, player, opponent)
-    return parity_score + board_score + corners_score*10 + near_corner_penalty
+    # board_score = dynamic_weights_score(board, player, opponent)
+    return parity_score * 20 + corners_score * 10  # + near_corner_penalty +board_score
 
 def heuristic(board, player, opponent):
-    game_advancement = (np.sum((board == player))+np.sum((board == opponent)))/board.shape[0]**2
+    game_advancement = (np.sum((board == player)) + np.sum((board == opponent))) / board.shape[0] ** 2
     if game_advancement < 0.25:
         return start_game_heuristic(board, player, opponent)
-    elif game_advancement < 0.7:
+    elif game_advancement < 0.8:
         return mid_game_heuristic(board, player, opponent)
-    else :
+    else:
         return end_game_heuristic(board, player, opponent)
 
-def alpha_beta(board, depth, alpha, beta, maximizing_player, player, opponent, start_time,move_order=None):
+def alpha_beta(board, depth, alpha, beta, maximizing_player, player, opponent, start_time, move_order=None):
     """
     Alpha-beta pruning with optional move ordering.
 
@@ -240,8 +235,8 @@ def alpha_beta(board, depth, alpha, beta, maximizing_player, player, opponent, s
     if depth == 0 or not valid_moves:
         return heuristic(board, player, opponent), None
 
-    if time.time() - start_time >=2 :
-        #print("alpha",time.time(),start_time)
+    if time.time() - start_time >= TIME_LIMIT:
+        # print("alpha",time.time(),start_time)
         raise TimeoutError
 
     # Use move ordering if provided
@@ -254,7 +249,7 @@ def alpha_beta(board, depth, alpha, beta, maximizing_player, player, opponent, s
         for move in valid_moves:
             new_board = deepcopy(board)
             execute_move(new_board, move, player)
-            eval, _ = alpha_beta(new_board, depth - 1, alpha, beta, False, player, opponent, start_time,move_order)
+            eval, _ = alpha_beta(new_board, depth - 1, alpha, beta, False, player, opponent, start_time, move_order)
             if eval > max_eval:
                 max_eval = eval
                 best_move = move
@@ -267,7 +262,7 @@ def alpha_beta(board, depth, alpha, beta, maximizing_player, player, opponent, s
         for move in valid_moves:
             new_board = deepcopy(board)
             execute_move(new_board, move, opponent)
-            eval, _ = alpha_beta(new_board, depth - 1, alpha, beta, True, player,opponent, start_time,move_order)
+            eval, _ = alpha_beta(new_board, depth - 1, alpha, beta, True, player, opponent, start_time, move_order)
             if eval < min_eval:
                 min_eval = eval
                 best_move = move
@@ -288,20 +283,21 @@ class StudentAgent(Agent):
 
         best_value = float('-inf')
         best_move = None
-        depth = [5,4,4,3,3,2,2][board.shape[0]-6]
+        depth = [5, 4, 4, 3, 3, 2, 2][board.shape[0] - 6]
         move_order = []  # Store the best move from previous depths for ordering
         start_time = time.time()
-        #print("step",start_time)
+        # print("step",start_time)
 
         while True:
 
-            if time.time() - start_time >= 2:
+            if time.time() - start_time >= TIME_LIMIT:
                 break
 
             try:
-                #print(time.time() - start_time)
-                #print(start_time)
-                value, move = alpha_beta(board, depth, float('-inf'), float('inf'), True, player, opponent, start_time, move_order)
+                # print(time.time() - start_time)
+                # print(start_time)
+                value, move = alpha_beta(board, depth, float('-inf'), float('inf'), True, player, opponent, start_time,
+                                         move_order)
                 if move is not None:
                     best_move = move
                     best_value = value
@@ -337,5 +333,5 @@ class StudentAgent(Agent):
         print("BEST MOVE :",best_move,"at depth ",depth-1)
 
         print("------------------------------------------------------------------------------------------------------------")"""
-        #104 - 40
+        # 104 - 40
         return best_move

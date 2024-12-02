@@ -1,5 +1,19 @@
-python simulator.py --player_1 tdw --player_2  c6a --autoplay --autoplay_runs 14
- python simulator.py --player_1 tdw --player_2  comparor --autoplay --autoplay_runs 14
- python simulator.py --player_1 tdw --player_2  dynamic_weighting --autoplay --autoplay_runs 14
- python simulator.py --player_1 tdw --player_2  equal --autoplay --autoplay_runs 14
- python simulator.py --player_1 tdw --player_2  gpt_greedy_corners_agent --autoplay --autoplay_runs 14
+ python simulator.py --player_1 new_end_game --player_2  c2a --autoplay
+ python simulator.py --player_1 new_end_game --player_2  c5a --autoplay
+ python simulator.py --player_1 new_end_game --player_2  changed_mobility --autoplay
+ python simulator.py --player_1 new_end_game --player_2  equal --autoplay
+ python simulator.py --player_1 new_end_game --player_2  gpt_greedy_corners_agent --autoplay
+ python simulator.py --player_1 new_end_game --player_2  montosh --autoplay
+ python simulator.py --player_1 new_end_game --player_2  random_agent --autoplay
+ python simulator.py --player_1 new_end_game --player_2  stab2 --autoplay
+ python simulator.py --player_1 new_end_game --player_2  stab2_equal --autoplay
+ python simulator.py --player_1 new_end_game --player_2  stability --autoplay
+ python simulator.py --player_1 new_end_game --player_2  student_agent --autoplay
+ python simulator.py --player_1 new_end_game --player_2  tdw --autoplay
+ python simulator.py --player_1 new_end_game --player_2  time --autoplay
+ python simulator.py --player_1 new_end_game --player_2  time2 --autoplay
+ python simulator.py --player_1 new_end_game --player_2  tstab2 --autoplay
+
+
+
+
