@@ -6,18 +6,7 @@ from copy import deepcopy
 import time
 from helpers import random_move, count_capture, execute_move, check_endgame, get_valid_moves
 
-TIME_LIMIT = 2
-
-from agents.agent import Agent
-from store import register_agent
-import sys
-import numpy as np
-from copy import deepcopy
-import time
-from helpers import random_move, count_capture, execute_move, check_endgame, get_valid_moves
-
 TIME_LIMIT = 1.98
-
 
 def ratio(num1, num2):
     result = 0
@@ -357,4 +346,6 @@ class StudentAgent(Agent):
         #print_h(copyy, player, opponent)
         #print("BEST MOVE :", best_move, "at depth ", depth - 1)
         #input()
+
+
         return best_move
